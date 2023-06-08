@@ -5,23 +5,23 @@ I hotswap modded an Anne Pro 2 using _rivets_, a very budget-friendly alternativ
 The procedure was as follows:
 1. Disassemble keyboard and unsodler switches.
 2. Place and squeeze rivets, on key at the time:
-  1. Place rivets in two switch pin holes.
-  2. Insert the switch.
-  3. Hold it in place and flip over the PCB.
-  4. Squeeze each rivet around its switch pin with a pair of thongs.
-    - This is to ensure contact, so don't under-squeeze.
-    - Don't over-squeeze either: you need to be able to remove the switch.
-    - The pins are flat: squeeze on their long sides.
-  5. Once both rivets are squeezed, you can remove the switch: the rivets can rotate, but not fall out.
+    1. Place rivets in two switch pin holes.
+    2. Insert the switch.
+    3. Hold it in place and flip over the PCB.
+    4. Squeeze each rivet around its switch pin with a pair of thongs.
+        - This is to ensure contact, so don't under-squeeze.
+        - Don't over-squeeze either: you need to be able to remove the switch.
+        - The pins are flat: squeeze on their long sides.
+    5. Once both rivets are squeezed, you can remove the switch: the rivets can rotate, but not fall out.
 3. Fix the rivets flush to the PCB top using tape.
-  - You don't want them hovering over the pcb after soldering: then the switches will be crooked.
-  - I liked the same packaging paper tape I use for tape mods.
-  - I used the back of tweezers to really press the tape tight to the pcb right around the rivets.
+    - You don't want them hovering over the pcb after soldering: then the switches will be crooked.
+    - I liked the same packaging paper tape I use for tape mods.
+    - I used the back of tweezers to really press the tape tight to the pcb right around the rivets.
 4. Solder the rivets.
-  - Some will likely have rotated.
-  - Align them with howyou squeezed them.
+    - Some will likely have rotated.
+    - Align them with howyou squeezed them.
 5. Reassemble and test.
-  - If a switch doesn't register, try angling its pins slightly before inserting so they end up touching the rivet walls.
+    - If a switch doesn't register, try angling its pins slightly before inserting so they end up touching the rivet walls.
 
 ## Back of pcb with squeezed rivets:
 <img src="images/pcb_back.jpg" width="512"/>

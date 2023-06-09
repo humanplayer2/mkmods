@@ -25,6 +25,7 @@ I did this:
 4. Solder the rivets.
     - Some will likely have rotated.
     - Align them with how you squeezed them before soldering.
+    - Pay attention to not use so much solder that it runs into the rivets.
 
 5. Reassemble and test.
     - If a switch doesn't register, try angling its pins slightly before inserting so they end up touching the rivet walls.

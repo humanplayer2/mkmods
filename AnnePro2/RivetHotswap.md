@@ -3,7 +3,7 @@ _Mod finished 07.05.2023_
 
 I hotswap modded an Anne Pro 2 using _rivets_, a very budget-friendly alternative to Mill Max sockets. I used _M1.3*3.5 mm_ copper hollow rivets (the numbers are diameter and length). I got 1000 pcs for ~4 USD from [Zhongfa Precision Hardware Co. on AliExpress](https://a.aliexpress.com/_msDm7v6). You need two per switch.
 
-<img src="images/ali_rivets.jpg" width="512"/>
+<img src="images/ali_rivets.png" width="512"/>
 
 ## I did this:
 

@@ -19,3 +19,6 @@ PS2_DRIVER = usart
 
 # Custom shift keys:
 SRC += features/custom_shift_keys.c # https://getreuer.info/posts/keyboards/custom-shift-keys/index.html
+
+# Caps Words:
+CAPS_WORD_ENABLE = yes

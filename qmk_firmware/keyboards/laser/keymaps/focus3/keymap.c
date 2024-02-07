@@ -47,6 +47,7 @@ DK_DOL = ALGR(KC_4),
 DK_AMPR = S(KC_6),
 DK_SLSH = S(KC_7),
 DK_BSLS = ALGR(KC_NUBS),
+DK_STAR = S(KC_BSLS),
 DK_LPRN = S(KC_8),
 DK_RPRN = S(KC_9),
 DK_LBRC = ALGR(KC_8),
@@ -116,14 +117,15 @@ bool caps_word_press_user(uint16_t keycode) {
 // Custom shift keys
 const custom_shift_key_t custom_shift_keys[] = {
   {KC_EXLM, DK_QUES}, // Shift ! is ?
-  {DK_DQUO, DK_AT}, // Shift ! is ?
-  {KC_HASH, KC_HASH}, // Shift , is !
-  {DK_DOL,  DK_DOL}, // Shift - is =
-  {KC_PERC, KC_PERC}, // Shift : is ;
-  {DK_AMPR, DK_PIPE}, // Shift : is ;
+  {DK_DQUO, DK_AT}, // Shift " is @
+  {KC_HASH, KC_HASH}, // Shift # is #
+  {DK_DOL,  DK_DOL}, // Shift $ is $
+  {KC_PERC, KC_PERC}, // Shift % is %
+  {DK_AMPR, DK_PIPE}, // Shift & is |
   //
   {DK_EQUAL, DK_TILDE},
   {KC_BTN3, KC_BTN2},
+  {KC_BSLS, DK_DQUO}, // Shift ' is "
   //
   {DK_SLSH, DK_BSLS}, // Shift : is ;
   {DK_LPRN, DK_RPRN}, // Shift : is ;
@@ -137,6 +139,7 @@ uint8_t NUM_CUSTOM_SHIFT_KEYS =
 //
 
 const custom_lgui_key_t custom_lgui_keys[] = {
+      // Same side
       {KC_W, RCTL(KC_PAGE_UP)}, // Tab left
       {KC_P, RCTL(KC_PAGE_DOWN)}, // Tab right
       {KC_B, RCTL(KC_T)}, // Tab new
@@ -144,16 +147,23 @@ const custom_lgui_key_t custom_lgui_keys[] = {
       {KC_V, A(KC_LEFT)}, // Back
       {KC_D, LAG(KC_T)},  // Focus right
       {KC_X, LAG(KC_R)},  // Focus left
-      {KC_H, DK_MINUS},    //
-      {KC_J, KC_BSLS}    //
-      //{KC_D, RCTL(KC_F)}, // Search
-      //{ALT_Q, RCTL(KC_L)} // Address bar focus
+      // Opposite side
+      {KC_M, DK_SLSH},    //
+      {KC_N, DK_LPRN},    //
+      {KC_E, DK_LBRC},    //
+      {KC_I, DK_LCBR},    //
+      {SH_O, DK_LABK},    //
+      {DK_OE, DK_GRV},    //
+      //
+      {KC_L, KC_BSLS},    // is '
+      {KC_H, DK_MINUS}    //
     };
 uint8_t NUM_CUSTOM_LGUI_KEYS =
     sizeof(custom_lgui_keys) / sizeof(custom_lgui_key_t);
 //
 
 const custom_rgui_key_t custom_rgui_keys[] = {
+  // Same side
   {KC_U, KC_UP}, //
   {KC_E, KC_DOWN}, //
   {KC_N, KC_LEFT}, //
@@ -166,26 +176,26 @@ const custom_rgui_key_t custom_rgui_keys[] = {
   {KC_H, C(KC_C)}, //
   {KC_COMMA, C(KC_V)}, //
   {KC_DOT, C(KC_X)}, //
-  {SH_O, C(KC_Z)}
+  {SH_O, C(KC_Z)},
+  // Opposite side
+//  {KC_G, DK_PIPE},    // broken, meta is not released
+//  {KC_T, KC_PERC},    // ok
+//  {KC_S, DK_DOL},     // broken, meta is not released
+  {KC_R, KC_HASH},    // ok
+//  {SH_A, DK_AT},      // broken, meta is not released
+//  {KC_Z, KC_EXLM},    // shift does not get applied
+  //
+  {KC_P, S(KC_BSLS)},    // should be ", but shift does not get applied
+  {KC_D, S(DK_MINUS)}
     };
 uint8_t NUM_CUSTOM_RGUI_KEYS =
     sizeof(custom_rgui_keys) / sizeof(custom_rgui_key_t);
 //
 
-const custom_lctl_key_t custom_lctl_keys[] = {
-      {KC_F, LAG(KC_F)}, // Window focus in Forge
-      {KC_S, LAG(KC_S)}, //
-      {KC_R, LAG(KC_R)}, //
-      {KC_T, LAG(KC_T)} //
-    };
-uint8_t NUM_CUSTOM_LCTL_KEYS =
-    sizeof(custom_lctl_keys) / sizeof(custom_lctl_key_t);
-
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
-  if (!process_custom_lctl_keys(keycode, record)) { return false; }
+  if (!process_custom_shift_keys(keycode, record)) { return false; }
   if (!process_custom_lgui_keys(keycode, record)) { return false; }
   if (!process_custom_rgui_keys(keycode, record)) { return false; }
-  if (!process_custom_shift_keys(keycode, record)) { return false; }
   // Your macros ...
   return true;
 }
@@ -201,9 +211,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_EXLM,   KC_HASH,  DK_DOL,   KC_PERC,   DK_AMPR,   KC_NO,       KC_NO,     DK_SLSH,   DK_LPRN,   DK_LBRC,   DK_LCBR,   DK_GRV,
         DK_DQUO,   KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      DK_LABK,
-        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      DK_EQUAL,    KC_BSLS,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
+        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      DK_EQUAL,    DK_STAR,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
         ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_MINUS,    KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
-        SH_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      SH_OE
+        KC_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      DK_OE
     ),
     [_ENTER_MOD] = LAYOUT(
         KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,

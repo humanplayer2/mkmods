@@ -1,0 +1,39 @@
+{
+    "manufacturer": "Kristian og Rasmus",
+    "keyboard_name": "fodpanel",
+    "maintainer": "Kristian",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "cols": ["B1","B2","B6","D7","E6","B4","B3"],
+        "rows": ["D0"]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0112",
+        "vid": "0x1986"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 0},
+                {"matrix": [0, 2], "x": 0, "y": 0},
+                {"matrix": [0, 3], "x": 0, "y": 0},
+                {"matrix": [0, 4], "x": 0, "y": 0},
+                {"matrix": [0, 5], "x": 0, "y": 0},
+                {"matrix": [0, 6], "x": 0, "y": 0}
+            ]
+        }
+    }
+}

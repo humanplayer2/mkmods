@@ -171,9 +171,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_LMOD] = LAYOUT(
         G(KC_EXLM),G(KC_HASH),G(DK_DOL),G(KC_PERC),G(DK_AMPR),KC_NO,       KC_NO,    G(DK_SLSH), G(DK_LPRN),G(DK_LBRC),G(DK_LCBR),G(DK_GRV),
-        G(DK_DQUO),C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  KC_HASH,    KC_BSLS,   DK_GRV,    G(KC_Y),   G(DK_LABK),
-        G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),  G(DK_EQUAL),  _______,  DK_SLSH,    DK_LPRN,   DK_LBRC,   G(KC_I),   G(DK_AA),
-        G(ALT_Q),  LAG(KC_R), G(KC_C),  LAG(KC_T), A(KC_LEFT),G(DK_MINUS), KC_NO,    DK_PLUS,    DK_MINUS,  DK_EQUAL,  DK_LABK,   G(ALT_AE),
+        G(DK_DQUO),C(KC_PGUP),G(KC_F),  C(KC_PGDN),G(KC_G),  _______,      _______,  KC_HASH,    KC_BSLS,   DK_GRV,    G(KC_Y),   G(DK_LABK),
+        G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   G(KC_D),  G(DK_EQUAL),  _______,  DK_SLSH,    DK_LPRN,   DK_LBRC,   G(KC_I),   G(DK_AA),
+        G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS), KC_NO,       DK_PLUS,    DK_MINUS,  DK_EQUAL,  DK_LABK,   G(ALT_AE),
         G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    G(SH_O),   G(DK_OE)
     ),
     [_RMOD] = LAYOUT(

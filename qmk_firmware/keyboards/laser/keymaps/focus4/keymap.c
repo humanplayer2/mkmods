@@ -164,16 +164,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_ENTER_MOD] = LAYOUT(
         KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,
-        KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   DK_PLUS,    KC_1,      KC_2,      KC_3,     KC_F11,
-        _______,  _______,   _______,  _______,   VOL_MU,   VOL_UP,       _______,   DK_MINUS,   KC_4,      KC_5,      KC_6,     KC_SCRL,
-        _______,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     DK_EQUAL,   KC_7,      KC_8,      KC_9,     KC_PSCR,
+        KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   _______,    KC_1,      KC_2,      KC_3,     KC_F11,
+        _______,  _______,   _______,  _______,   VOL_MU,   VOL_UP,       _______,   _______,    KC_4,      KC_5,      KC_6,     KC_SCRL,
+        _______,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     _______,    KC_7,      KC_8,      KC_9,     KC_PSCR,
         _______,  _______,   KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_0,     _______
     ),
     [_LMOD] = LAYOUT(
         G(KC_EXLM),G(KC_HASH),G(DK_DOL),G(KC_PERC),G(DK_AMPR),KC_NO,       KC_NO,    G(DK_SLSH), G(DK_LPRN),G(DK_LBRC),G(DK_LCBR),G(DK_GRV),
         G(DK_DQUO),C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  KC_HASH,    KC_BSLS,   DK_GRV,    G(KC_Y),   G(DK_LABK),
-        G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),  _______,  DK_SLSH,    DK_LPRN,   DK_LBRC,   G(KC_I),   G(DK_AA),
-        G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS), KC_NO,       DK_PLUS,    DK_MINUS,  DK_EQUAL,  DK_LABK,   G(ALT_AE),
+        G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),    _______,  DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,   G(DK_AA),
+        G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS),    KC_NO,    DK_PLUS,    DK_MINUS,  DK_EQUAL,  DK_LABK,   G(ALT_AE),
         G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    G(SH_O),   G(DK_OE)
     ),
     [_RMOD] = LAYOUT(

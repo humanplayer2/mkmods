@@ -31,9 +31,9 @@ PS2_MOUSE_SEND(0x61, "data"); // default = x61
 // used in keycodes names below
 enum my_layers {
  _BASE = 0,
- _ENTER_MOD = 1,
- _LMOD = 2,
- _RMOD = 3
+ _LMOD = 1,
+ _RMOD = 2,
+ _ENTER_MOD = 3
 };
 // Keycode names:
 enum my_keycodes {
@@ -84,6 +84,8 @@ SH_O = (MT(MOD_RSFT,KC_O)),
 SH_Z = (MT(MOD_LSFT,KC_Z)),
 SH_OE = (MT(MOD_RSFT,DK_OE)),
 SH_0 = (MT(MOD_RSFT,KC_0)),
+SH_LABK = (MT(MOD_RSFT,KC_NUBS)),
+SH_MINUS = (MT(MOD_RSFT,DK_MINUS)),
 ALT_Q = (MT(MOD_LALT,KC_Q)),
 ALT_AE = (MT(MOD_LALT,DK_AE)),
   // Tap-mods
@@ -121,14 +123,14 @@ const custom_shift_key_t custom_shift_keys[] = {
   {KC_BSLS, DK_DQUO}, // ' is "
 //
   {KC_EXLM, DK_QUES}, // Shift ! is ?
-  {DK_DQUO, DK_AT}, // Shift " is @
-  {KC_HASH, DK_AT}, // # is @
-  {DK_DOL,  DK_DOL}, // Shift $ is $
-  {KC_PERC, KC_PERC}, // Shift % is %
+  {DK_TILDE, DK_AT}, // Shift ~ is @
+  {KC_HASH, KC_PERC}, // # is $
   {DK_AMPR, DK_PIPE}, // Shift & is |
   //
   {DK_EQUAL, DK_TILDE},
   {KC_BTN3, KC_BTN2},
+  //
+  {DK_MINUS, DK_PLUS}, // Shift - is +.
   //
   {DK_SLSH, DK_BSLS}, // Shift / is \ .
   {DK_LPRN, DK_RPRN}, // Shift : is ;
@@ -157,30 +159,30 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     */
     [_BASE] = LAYOUT(
         KC_EXLM,   KC_HASH,  DK_DOL,   KC_PERC,   DK_AMPR,   KC_NO,       KC_NO,     DK_SLSH,   DK_LPRN,   DK_LBRC,   DK_LCBR,   DK_GRV,
-        DK_DQUO,   KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      DK_LABK,
+        S(DK_DQUO),KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      DK_LABK,
         KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      DK_EQUAL,    DK_STAR,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
         ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_MINUS,    KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
         KC_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      DK_OE
     ),
-    [_ENTER_MOD] = LAYOUT(
-        KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,
-        KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   _______,    KC_1,      KC_2,      KC_3,     KC_F11,
-        _______,  _______,   _______,  _______,   VOL_MU,   VOL_UP,       _______,   _______,    KC_4,      KC_5,      KC_6,     KC_SCRL,
-        _______,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     _______,    KC_7,      KC_8,      KC_9,     KC_PSCR,
-        _______,  _______,   KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_0,     _______
-    ),
     [_LMOD] = LAYOUT(
-        G(KC_EXLM),G(KC_HASH),G(DK_DOL),G(KC_PERC),G(DK_AMPR),KC_NO,       KC_NO,    G(DK_SLSH), G(DK_LPRN),G(DK_LBRC),G(DK_LCBR),G(DK_GRV),
-        G(DK_DQUO),C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  KC_HASH,    KC_BSLS,   DK_GRV,    G(KC_Y),   G(DK_LABK),
-        G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),    _______,  DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,   G(DK_AA),
-        G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS),    KC_NO,    DK_PLUS,    DK_MINUS,  DK_EQUAL,  DK_LABK,   G(ALT_AE),
-        G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    G(SH_O),   G(DK_OE)
+      G(KC_ESC), G(KC_F3),  G(KC_F4), G(KC_F5),  G(KC_F6),    KC_NO,     KC_NO,    G(KC_F7),   G(KC_F8),  G(KC_F9),  G(KC_F10),G(KC_F12),
+      G(KC_F2),  C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  _______,    KC_1,      KC_2,      KC_3,     G(KC_F11),
+      G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),    _______,  _______,    KC_4,      KC_5,      KC_6,     _______,
+      G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS),    KC_NO,    _______,    KC_7,      KC_8,      KC_9,     _______,
+      G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    SH_0,     _______
     ),
     [_RMOD] = LAYOUT(
-        _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      _______,
-        _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
-        _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
-        _______,  _______,   _______,  _______,   _______,  _______,       KC_NO,     KC_APP,   C(KC_C),     C(KC_V),    C(KC_X),   _______,
-        _______,  _______,   KC_NO,    _______,   _______,  _______,       _______,   _______,    _______,    KC_NO,      _______,   _______
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      _______,
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  KC_PSCR,
+      _______,  _______,   _______,  _______,   _______,  _______,       KC_NO,     KC_APP,   C(KC_C),     C(KC_V),    C(KC_X),   _______,
+      _______,  _______,   KC_NO,    _______,   _______,  _______,       _______,   _______,    _______,    KC_NO,     C(KC_Z),   _______
+    ),
+    [_ENTER_MOD] = LAYOUT(
+        KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,
+        KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   KC_EXLM,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_F11,
+        _______,  _______,   _______,  KC_TAB,    VOL_MU,   VOL_UP,       _______,   DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
+        _______,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,
+        _______,  KC_TAB,    KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
     )
 };

@@ -182,7 +182,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,
         KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   KC_EXLM,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_F11,
         _______,  _______,   _______,  KC_TAB,    VOL_MU,   VOL_UP,       _______,   DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
-        _______,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,
-        _______,  KC_TAB,    KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
+        KC_TAB,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,
+        _______,  SH_A,      KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
     )
 };

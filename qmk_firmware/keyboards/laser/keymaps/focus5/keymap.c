@@ -172,7 +172,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    SH_0,     _______
     ),
     [_RMOD] = LAYOUT(
-      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      _______,
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      KC_SCRL,
       _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
       _______,  _______,   _______,  _______,   _______,  _______,       _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  KC_PSCR,
       _______,  _______,   _______,  _______,   _______,  _______,       KC_NO,     KC_APP,   C(KC_C),     C(KC_V),    C(KC_X),   _______,
@@ -183,6 +183,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F2,    _______,   _______,  _______,   _______,  _______,      _______,   KC_EXLM,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_F11,
         _______,  _______,   _______,  KC_TAB,    VOL_MU,   VOL_UP,       _______,   DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
         KC_TAB,  _______,   _______,  _______,   _______,  VOL_DN,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,
-        _______,  SH_A,      KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
+        _______,  SH_A,     KC_NO,    CW_TOGG,   _______,  _______,      _______,   _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
     )
 };

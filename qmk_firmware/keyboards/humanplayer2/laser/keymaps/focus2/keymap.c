@@ -142,10 +142,8 @@ const custom_lgui_key_t custom_lgui_keys[] = {
       {KC_B, RCTL(KC_T)}, // Tab new
       {KC_G, RCTL(KC_W)}, // Tab close
       {KC_V, A(KC_LEFT)}, // Back
-      {KC_D, LAG(KC_T)},  // Focus right
-      {KC_X, LAG(KC_R)},  // Focus left
-      {KC_H, DK_MINUS},    //
-      {KC_J, KC_BSLS}    //
+      {KC_D, LAG(KC_T)}, // Focus right
+      {KC_X, LAG(KC_R)}  // Focus left
       //{KC_D, RCTL(KC_F)}, // Search
       //{ALT_Q, RCTL(KC_L)} // Address bar focus
     };
@@ -166,7 +164,7 @@ const custom_rgui_key_t custom_rgui_keys[] = {
   {KC_H, C(KC_C)}, //
   {KC_COMMA, C(KC_V)}, //
   {KC_DOT, C(KC_X)}, //
-  {SH_O, C(KC_Z)}
+  {KC_O, C(KC_Z)}
     };
 uint8_t NUM_CUSTOM_RGUI_KEYS =
     sizeof(custom_rgui_keys) / sizeof(custom_rgui_key_t);
@@ -203,7 +201,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         DK_DQUO,   KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      DK_LABK,
         KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      DK_EQUAL,    KC_BSLS,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
         ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_MINUS,    KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
-        SH_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      SH_OE
+        SH_Z,      KC_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     KC_O,      SH_OE
     ),
     [_ENTER_MOD] = LAYOUT(
         KC_F1,    KC_F3,     KC_F4,    KC_F5,     KC_F6,    KC_NO,        KC_NO,     KC_F7,      KC_F8,     KC_F9,     KC_F10,   KC_F12,

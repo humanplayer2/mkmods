@@ -21,3 +21,5 @@ Build with qPBT Terminal keycaps and MMD Princess linear switches.
 <img src="photos/side.jpg" width="512"/>
 
 <img src="photos/closeup.jpg" width="512"/>
+
+<img src="photos/kit.jpg" width="512"/>

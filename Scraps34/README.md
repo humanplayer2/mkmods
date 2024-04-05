@@ -1,3 +1,5 @@
-# Scraps34: A split keyboard built of scraps
+# Scraps34: A repurposed TKL split columnar
 
-<img src="photos/pre-cut.jpg" width="512"/>
+
+
+<img src="photos/pre-cut.png" width="512"/>

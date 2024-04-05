@@ -1,13 +1,10 @@
-# Tokyo60
-A HHKB layout board.
+# Tokyo60: A HHKB layout board
 
-## Build
+[Documentation](https://github.com/JnyJny/tokyo60_keymap/tree/master/firmware).
 
-Build with qPBT Terminal keycaps and MMD Princess linear switches.
+Build and sold with qPBT Terminal keycaps and MMD Princess linear switches. More photos below.
 
 <img src="photos/angled.jpg" width="512"/>
-
-[Documentation](https://github.com/JnyJny/tokyo60_keymap/tree/master/firmware)
 
 ## To flash and run VIA
 - Download and setup QMK

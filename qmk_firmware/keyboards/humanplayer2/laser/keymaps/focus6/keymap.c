@@ -160,8 +160,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_F1,     KC_F3,    KC_F4,    KC_F5,     KC_F6,     KC_NO,       KC_NO,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_F12,
         KC_F2,     KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      KC_F11,
-        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      DK_EQUAL,    DK_STAR,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
-        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_MINUS,    KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
+        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      VOL_UP,      VOL_MU,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
+        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      VOL_DN,      KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
         KC_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      DK_OE
     ),
     [_LMOD] = LAYOUT(
@@ -172,10 +172,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    SH_0,     _______
     ),
     [_RMOD] = LAYOUT(
-      _______,  _______,   _______,  _______,   _______,  VOL_MU,        _______,   _______,  _______,   _______,   _______,      KC_SCRL,
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      KC_SCRL,
       _______,  _______,   _______,  C(KC_X),   _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
-      _______,  _______,   S(KC_INS),C(KC_INS), KC_TAB,   VOL_UP,        _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  KC_PSCR,
-      _______,  _______,   _______,  KC_F2,     _______,  VOL_DN,        KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
+      _______,  _______,   S(KC_INS),C(KC_INS), KC_TAB,   _______,        _______,  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  KC_PSCR,
+      _______,  _______,   _______,  KC_F2,     _______,  _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
       _______,  _______,   KC_NO,    _______,   _______,  _______,       _______,   _______,    _______,    KC_NO,     C(KC_Z),   _______
     ),
     [_ENTER_MOD] = LAYOUT(

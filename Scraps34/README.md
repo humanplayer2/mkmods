@@ -1,3 +1,3 @@
 # Scraps34: A split keyboard built of scraps
 
-<img src="photos/pre-cut.jpg" width="512"/>
+<img src="photos/pre-cut.png" width="512"/>

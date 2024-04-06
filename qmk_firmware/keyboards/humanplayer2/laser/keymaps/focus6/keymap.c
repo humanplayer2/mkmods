@@ -35,6 +35,12 @@ enum my_layers {
  _RMOD = 2,
  _ENTER_MOD = 3
 };
+
+enum custom_keycodes {
+    DK_E_AIGU = SAFE_RANGE,
+//    S_DK_E_AIGU,
+};
+
 // Keycode names:
 enum my_keycodes {
   // DK keycodes
@@ -137,7 +143,10 @@ const custom_shift_key_t custom_shift_keys[] = {
   {DK_LBRC, DK_RBRC}, // Shift : is ;
   {DK_LCBR, DK_RCBR}, // Shift : is ;
   {DK_LABK, DK_RABK}, // Shift : is ;
-  {DK_GRV, DK_AIGU} // Shift : is ;
+  {DK_GRV, DK_AIGU}, // Shift : is ;
+
+  {VOL_UP, VOL_DN}, // Shift : is ;
+//  {DK_E_AIGU, S_DK_E_AIGU},
 };
 uint8_t NUM_CUSTOM_SHIFT_KEYS =
     sizeof(custom_shift_keys) / sizeof(custom_shift_key_t);
@@ -146,6 +155,22 @@ uint8_t NUM_CUSTOM_SHIFT_KEYS =
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
   if (!process_custom_shift_keys(keycode, record)) { return false; }
   // Your macros ...
+  switch (keycode) {
+    case DK_E_AIGU:
+      if (record->event.pressed) {
+        // when keycode DK_E_AIGU is pressed
+        SEND_STRING(SS_TAP(X_SCRL) SS_TAP(X_EQUAL) SS_TAP(X_E));
+      } else {
+          // when keycode DK_E_AIGU is released
+      }
+      break;
+//    case S_DK_E_AIGU: // this doesn't work as expected. F8 is send...?
+//    if (record->event.pressed) {
+//        SEND_STRING(SS_TAP(X_SCRL) SS_TAP(X_EQUAL) SS_DOWN(X_LSFT) SS_TAP(X_E) SS_UP(X_LSFT));
+//      } else {
+//      }
+//      break;
+  }
   return true;
 }
 
@@ -158,28 +183,28 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * Laser Prothetic
     */
     [_BASE] = LAYOUT(
-        KC_F1,     KC_F3,    KC_F4,    KC_F5,     KC_F6,     KC_NO,       KC_NO,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_F12,
+        KC_F1,     KC_F3,    KC_F4,    KC_F5,     KC_F6,     KC_NO,       KC_NO,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_PSCR,
         KC_F2,     KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      KC_F11,
-        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      VOL_UP,      VOL_MU,   KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
-        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      VOL_DN,      KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
+        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      VOL_DN,      VOL_MU,    KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
+        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_E_AIGU,   KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
         KC_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      DK_OE
     ),
     [_LMOD] = LAYOUT(
-      G(KC_ESC), G(KC_F3),  G(KC_F4), G(KC_F5),  G(KC_F6),    KC_NO,     KC_NO,    G(KC_F7),   G(KC_F8),  G(KC_F9),  G(KC_F10),G(KC_F12),
-      G(KC_F2),  C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  _______,    KC_1,      KC_2,      KC_3,     G(KC_F11),
-      G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),    _______,  _______,    KC_4,      KC_5,      KC_6,     _______,
-      G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS),    KC_NO,    _______,    KC_7,      KC_8,      KC_9,     _______,
-      G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,    SH_0,     _______
+      G(KC_ESC), G(KC_F3),  G(KC_F4), G(KC_F5),  G(KC_F6),    KC_NO,     KC_NO,    G(KC_F7),   G(KC_F8),   G(KC_F9),   G(KC_F10),  G(KC_F12),
+      G(KC_F2),  C(KC_PGUP),G(KC_F),  C(KC_PGDN),C(KC_T),  _______,      _______,  _______,    KC_1,       KC_2,       KC_3,       G(KC_F11),
+      G(KC_TAB), G(KC_R),   G(KC_S),  G(KC_T),   C(KC_W),G(DK_EQUAL),    _______,  _______,    KC_4,       KC_5,       KC_6,       _______,
+      G(ALT_Q),  LAG(KC_R), A(KC_LEFT),LAG(KC_T),G(KC_V),G(DK_MINUS),    KC_NO,    _______,    KC_7,       KC_8,       KC_9,       _______,
+      G(KC_Z),  _______,    KC_NO,     _______,   _______,  _______,     _______,  G(KC_SPACE),G(KC_ENTER),KC_NO,     SH_0,       _______
     ),
     [_RMOD] = LAYOUT(
-      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,   _______,   _______,      KC_SCRL,
-      _______,  _______,   _______,  C(KC_X),   _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
-      _______,  _______,   S(KC_INS),C(KC_INS), KC_TAB,   _______,        _______,  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  KC_PSCR,
-      _______,  _______,   _______,  KC_F2,     _______,  _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
+      _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,     _______,    _______,   _______,
+      _______,  _______,   KC_F2,    S(KC_INS), _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
+      _______,  _______,   _______,  C(KC_INS), KC_TAB,   _______,        _______,  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
+      _______,  _______,   _______,  C(KC_X),   _______,  _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
       _______,  _______,   KC_NO,    _______,   _______,  _______,       _______,   _______,    _______,    KC_NO,     C(KC_Z),   _______
     ),
     [_ENTER_MOD] = LAYOUT(
-        KC_NO,    KC_NO,     KC_NO,    KC_NO,     KC_NO,    KC_NO,        KC_NO,     KC_NO,      KC_NO,     KC_NO,     KC_NO,    KC_NO,
+        KC_NO,    KC_NO,     KC_NO,    KC_NO,     KC_NO,    KC_NO,        KC_NO,     KC_NO,      KC_NO,     KC_NO,     KC_NO,    KC_SCRL,
         KC_NO,    _______,   _______,  KC_EXLM,   DK_QUES, _______,      _______,    DK_STAR,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_NO,
         CW_TOGG,  _______,   _______,  _______,   _______, _______,      _______,    DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
         _______,  _______,   _______,  _______,   _______, _______,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,

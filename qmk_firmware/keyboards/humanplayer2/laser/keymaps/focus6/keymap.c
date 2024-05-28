@@ -93,7 +93,10 @@ SH_0 = (MT(MOD_RSFT,KC_0)),
 SH_LABK = (MT(MOD_RSFT,KC_NUBS)),
 SH_MINUS = (MT(MOD_RSFT,DK_MINUS)),
 ALT_Q = (MT(MOD_LALT,KC_Q)),
+ALT_Z = (MT(MOD_LALT,KC_Z)),
 ALT_AE = (MT(MOD_LALT,DK_AE)),
+ALT_OE = (MT(MOD_LALT,DK_OE)),
+ALT_AA = (MT(MOD_LALT,DK_AA)),
   // Tap-mods
 LM_SPC = (LT(_LMOD,KC_SPACE)),
 RM_SPC = (LT(_RMOD,KC_SPACE)),
@@ -130,8 +133,9 @@ const custom_shift_key_t custom_shift_keys[] = {
 //
   {KC_EXLM, DK_QUES}, // Shift ! is ?
   {DK_TILDE, DK_AT}, // Shift ~ is @
-  {KC_HASH, KC_PERC}, // # is $
-  {DK_AMPR, DK_PIPE}, // Shift & is |
+  {KC_HASH, KC_PERC}, // # is %
+  //{DK_AMPR, DK_PIPE}, // Shift & is 
+  {DK_STAR, DK_DOL}, // Shift & is |
   //
   {DK_EQUAL, DK_TILDE},
   {KC_BTN3, KC_BTN2},
@@ -185,9 +189,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_F1,     KC_F3,    KC_F4,    KC_F5,     KC_F6,     KC_NO,       KC_NO,     KC_F7,     KC_F8,     KC_F9,     KC_F10,    KC_PSCR,
         KC_F2,     KC_W,     KC_F,     KC_P,      KC_B,      KC_NO,       KC_NO,     KC_J,      KC_L,      KC_U,      KC_Y,      KC_F11,
-        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      VOL_DN,      VOL_MU,    KC_M,      KC_N,      KC_E,      KC_I,      DK_AA,
-        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_E_AIGU,   KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    ALT_AE,
-        KC_Z,      SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      DK_OE
+        KC_TAB,    KC_R,     KC_S,     KC_T,      KC_G,      VOL_UP,      VOL_MU,    KC_M,      KC_N,      KC_E,      KC_I,      KC_Z,
+        ALT_Q,     KC_X,     KC_C,     KC_D,      KC_V,      DK_E_AIGU,   KC_NO,     KC_K,      KC_H,      KC_COMMA,  KC_DOT,    DK_AE,
+        ALT_OE,    SH_A,     KC_NO,    RCTL_ESC,  LM_SPC,    KC_BTN1,     KC_BTN3,   RM_SPC,    LT_ENTER,  KC_NO,     SH_O,      ALT_AA
     ),
     [_LMOD] = LAYOUT(
       G(KC_ESC), G(KC_F3),  G(KC_F4), G(KC_F5),  G(KC_F6),    KC_NO,     KC_NO,    G(KC_F7),   G(KC_F8),   G(KC_F9),   G(KC_F10),  G(KC_F12),
@@ -198,16 +202,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_RMOD] = LAYOUT(
       _______,  _______,   _______,  _______,   _______,  _______,       _______,   _______,  _______,     _______,    _______,   _______,
-      _______,  _______,   KC_F2,    S(KC_INS), _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
-      _______,  _______,   _______,  C(KC_INS), KC_TAB,   _______,        _______,  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
-      _______,  _______,   _______,  C(KC_X),   _______,  _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
-      _______,  _______,   KC_NO,    _______,   _______,  _______,       _______,   _______,    _______,    KC_NO,     C(KC_Z),   _______
+      _______,  _______,   KC_F2  ,C(KC_HASH),  _______,  _______,       _______,   KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
+      _______,  _______,   _______,  _______,   KC_TAB,   _______,        _______,  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
+      _______,  _______,   _______,  _______,   _______,  _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
+      _______,  _______,   KC_NO  ,  _______,  _______,  _______,       _______,   _______,    _______,    KC_NO,     _______,   C(KC_Z)
     ),
     [_ENTER_MOD] = LAYOUT(
         KC_NO,    KC_NO,     KC_NO,    KC_NO,     KC_NO,    KC_NO,        KC_NO,     KC_NO,      KC_NO,     KC_NO,     KC_NO,    KC_SCRL,
         KC_NO,    _______,   _______,  KC_EXLM,   DK_QUES, _______,      _______,    DK_STAR,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_NO,
         CW_TOGG,  _______,   _______,  _______,   _______, _______,      _______,    DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
-        _______,  _______,   _______,  _______,   _______, _______,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_DOL,
+        _______,  _______,   _______,  _______,   _______, _______,       KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_AT,
         _______,  SH_A,     KC_NO,     _______,   _______, _______,      _______,    _______,    _______,   KC_NO,     SH_LABK,  DK_TILDE
     )
 };

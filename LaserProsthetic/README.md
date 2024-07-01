@@ -7,9 +7,9 @@ This board's name pays homage to the line of trackpoint boards from [TEX](tex.co
 The `mkmods/qmk_firmware/keyboards/laser` directory contains my keymap. To flash,
 - `git clone https://github.com/humanplayer2/mkmods`
 - setup QMK in some directory (default is `$HOME`), then copy or symlink `keyboards/laser` there:
- ```ln -s `pwd`/mkmods/qmk_firmware/keyboards/laser $HOME/qmk_firmware/keyboards```
+ ```ln -s $PWD/mkmods/qmk_firmware/keyboards/humanplayer2 $HOME/qmk_firmware/keyboards```
 - enter bootloader mode by holding the top left button while plugging the board in, or by twice quickly shorting `RST` and `GND` on the ProMicro while plugged in (this way, stays in bootloader only 8 sec. I think)
-- `cd <qmk-home>; make laser:default:flash` -- or `qmk flash -kb laser -km default`
+- `cd <qmk-home>; make  humanplayer2/laser:default:flash` -- or `qmk flash -kb laser -km default`
 
 I use **Custom Shift Keys** by Pascal Getreuer. He has a lot of other neat [QMK tricks, too](https://getreuer.info/posts/keyboards/triggers/index.html#when-mod-combo-is-held), [Achordion for homerow mods](https://getreuer.info/posts/keyboards/achordion/index.html).
 

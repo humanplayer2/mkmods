@@ -12,3 +12,24 @@ Notes and photos of mechanical keyboards mods and builds.
 
 ## Builds
 - [Tokyo60: Some notes on QMK/VIA](Tokyo60/README.md)
+
+
+## QMK on Fedora 40:
+The pip install failed, so I use the Docker option:
+
+1. Install: https://docs.docker.com/engine/install/fedora/
+2. Run on start: https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot-with-systemd
+3. QMK: https://docs.qmk.fm/getting_started_docker
+
+Symlink seems to not work, so:
+rsync -r $HOME/mkmods/qmk_firmware/keyboards/humanplayer2 $HOME/qmk_firmware/keyboards
+
+To compile:
+$HOME/qmk_firmware/util/docker_build.sh keyboard:keymap
+
+cd $HOME/qmk_firmware
+util/docker_build.sh humanplayer2/laser:focus7
+
+To flash:
+$HOME/qmk_firmware/util/docker_build.sh keyboard:keymap:flash
+

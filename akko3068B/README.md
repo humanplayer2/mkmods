@@ -78,9 +78,9 @@ Ok, thinking about the tactility, I just had to throw in a few Gazzew U4Ts (spri
 ## Software and Firmware
 Board and firmware are not made for remapping and layering enthusiasts. I'm a QMK + thumbkeys + lots-of-layers person, so I'm biased towards that here.
 
-In the AKKO software, you can define four layers, which you can cycle between on Fn+Right_Alt (that could have been mentioned in th manual...), plus two Fn-layers.
+In the AKKO software, you can define four layers, which you can toggle between in the Clouid driver software (not avaliable for Linmux, so ... yay for me). I havn't figured out if you can switch between these layers on the keyboard. Some online reuslts suggest Fn+F9/F10, but this board doesn't have F-keys. There are however also two two Fn-layers that you can cycle through in using Fn+Right_Alt (that could have been mentioned in the manual).
 
-The four cyclable layers are fully free, so there you can play. But, you need to cycle thorugh them. You can't hold them and momentarily activate a layer. But the Fn-layers allow that. On the first Fn-layer some keys have locked functions for F1-F12, media keys, RGB, etc., but the second Fn-layer is fully free! I think this is really  nice. It means you can remap CapsLock to activate a full layer with macros and what not, and that I really appreciate.
+The four layers are fully free except for the default Fn, so there you can play. But, you need to toggle them. You can't hold a key and momentarily activate one of them. But the Fn-layers allow that. On the first Fn-layer some keys have locked functions for F1-F12, media keys, RGB, etc., but the second Fn-layer is fully free! I think this is really  nice. It means you can remap CapsLock to activate a full layer with macros and what not, and that I really appreciate.
 
 More advanced things---like tap-hold etc.---are not in the picture.
 

@@ -8,7 +8,7 @@ Everything here is of course just my opinion, so you can prefix every sentence w
 
 There are some thing I don't care much about myself, and therefore know little about. About these, I'll stay quite. These include RGB, stability of bluetooth and 2.4G connections, battery life. If you curious about something, then let me know.
 
-To see box content, the extra UK/DE/FI/SE/NO andvanity keycaps, further specs, etc., see the [keyboard product page](https://akkogear.eu/products/blue-on-white-3068b-plus-iso-mechanical-keyboard?_pos=2&_sid=636572fe2&_ss=r).
+To see box content, the extra UK/DE/FI/SE/NO and vanity keycaps, further specs, etc., see the [keyboard product page](https://akkogear.eu/products/blue-on-white-3068b-plus-iso-mechanical-keyboard?_pos=2&_sid=636572fe2&_ss=r).
 
 ## Case
 For a plastic case board, it'd nicely heavy, weighing in at 645g on my kitchen weight. It's stiff, and doesn't feel cheap. I think for casual user of mechanical keyboards, the build quality will be very satisfying. The case is compact, and not with a design I'd be annoyed at having around.
@@ -22,7 +22,7 @@ For a plastic case board, it'd nicely heavy, weighing in at 645g on my kitchen w
 To open the case, you need to pry off the top, then remove screw located under Tab, I-O, and Return. The the plate-and-pcb assembly lifts out, ready for e.g. a Tempest tape-mod.
 
 ## Inside
-Opening the case reveals a ~3mm low-density foam sheet, and the 18mAh battery. I measured the steel plate to be 1.5mm thick, the thickest that Cherry MX switches will fit. That's nice as it ensures that the switches sit tightly.
+Opening the case reveals a ~3mm low-density foam sheet, and the 1800mAh battery. I measured the steel plate to be 1.5mm thick, the thickest that Cherry MX switches will fit. That's nice as it ensures that the switches sit tightly.
 
 <img src="images/opened.jpg" width="512"/>
 

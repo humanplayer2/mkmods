@@ -84,5 +84,7 @@ The four layers are fully free except for the default Fn, so there you can play.
 
 More advanced things---like tap-hold etc.---are not in the picture.
 
+And the documentation is somemwhat lacking. I'd have appreciated a proper overview of aqll the fucntions of the board, including layer-switching. Especially using it without access to the AKKO software could be problematic, if you by accident activate a something that you can't get out of. I managed to do something so the arrow keys turned to WASD, and even witht he software, I couldn't figure out how to undo that, safe for resseting the entire board... So, it's nice with on-baord memory, but also a bit of a gamble given the lack of documentation.
+
 ## Conclusions
 So, clearly, this is a board designed for non-enthusiasts users of mechanical keyboards. With that in mind, I can see myself pointing friends or colleagues towards it. It's hotswap, so it can serve as an entry point. The default swithches do not have the nicest sound, but with other switches from AKKO, I think it's totally office-friendly. The software supports more functions than I think most of my friends and colleagues would use. And the keycaps support Danish!

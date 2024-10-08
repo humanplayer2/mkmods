@@ -60,7 +60,7 @@ For context, here's a rant: I'm Danish. We have ÆØÅ in our alphabet. The Norw
 
 AKKO, thank you for not using the Nordic layout, but supporting Danish, Norwegian and Finnish=Swedish! For me, this makes a huge difference. This is definitely a thing I'll mention when pointing other Danes to keyboards brands.
 
-<img src="images/keycpas_æøå.jpg" width="512"/>
+<img src="images/keycaps_æøå.jpg" width="512"/>
 
 Now, to the criticism: The legends are not the most consistent that I've seen. Individually, they are all clean, clear and precise, but they are not fully consistent. I think this is most noticable one the Danish keys, when compared to the others, where Ø is thinner than the other alphas, and E, Æ and Å are wider. The trextr on some of the modifiers is also a bit inconsistent in width (on the left Win key, "in" is narrower that other mod text).
 

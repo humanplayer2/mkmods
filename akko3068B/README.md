@@ -87,4 +87,10 @@ More advanced things---like tap-hold etc.---are not in the picture.
 And the documentation is somemwhat lacking. I'd have appreciated a proper overview of aqll the fucntions of the board, including layer-switching. Especially using it without access to the AKKO software could be problematic, if you by accident activate a something that you can't get out of. I managed to do something so the arrow keys turned to WASD, and even witht he software, I couldn't figure out how to undo that, safe for resseting the entire board... So, it's nice with on-baord memory, but also a bit of a gamble given the lack of documentation.
 
 ## Conclusions
-So, clearly, this is a board designed for non-enthusiasts users of mechanical keyboards. With that in mind, I can see myself pointing friends or colleagues towards it. It's hotswap, so it can serve as an entry point. The default swithches do not have the nicest sound, but with other switches from AKKO, I think it's totally office-friendly. The software supports more functions than I think most of my friends and colleagues would use. And the keycaps support Danish!
+All in all, I would say this is a very reasonable starting point for someone new to the mechanical keyboard hobby.
+
+Even if the default switches are not really my taste, part of the hobby is trying stuff out and finding out what you like, and what you don't. Here, you get a reasonable sound out-of-the-box, and can play with switches easily given that it's hotswap. With other switches from AKKO, I think it's totally office-friendly. If you want to play around with remapping, I think you'd maybe be better off running an OS level rempper or another board.
+
+One thing I think most users from the North will end up loving are the specialized keycaps for their language. You can't go wrong with that choice, even if the legends are not at the premium level.
+
+With everything in mind, I can see myself pointing friends or colleagues towards this board, if they aren't remapping powerusers. The software does supports more functions than I think most of my friends and colleagues would use. And the keycaps support Danish!

@@ -44,9 +44,17 @@ The keycaps are double-shot PBT, and I measure them to 1.2mm, so not thin, and n
 
 I want to praise the keycaps for their regional support options, but also criticize them a bit for their legends.
 
-First, the praise:
+First, the praise: They support Danish, not just Nordic.
+
+This is Nordic:
 
 <img src="images/nordic.jpg" width="512"/>
+
+This is Danish:
+
+<img src="images/danish.jpg" width="512"/>
+
+See the difference?
 
 For context, here's a rant: I'm Danish. We have ÆØÅ in our alphabet. The Norwegians have the same, but flip Æ and Ø in their layout. The Finnish and Swedes also have ÆØÅ, but write them ÄÖÅ. Now, somebody got the great idea that they could lump all three languages into a Nordic keyboard layout, where the Danish Æ key could feature the legends Æ from Danish, Ø from Norwegian and Ö from Finnish/Swedish, while the Danish Ø key could have legends ØÆÄ. It's atrocious. Now look at the key to the right of backspace. WTF goes on there? If you go exploring further, find pipe---both of them. If you don't use accents and pipe/backspace often, how annoying is it that? Nordic layout is an abomination, a slap in the face, unforgivable. Keychron, I'm looking at you.
 

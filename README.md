@@ -13,6 +13,8 @@ Notes and photos of mechanical keyboards mods and builds.
 ## Builds
 - [Tokyo60: Some notes on QMK/VIA](Tokyo60/README.md)
 
+## Reviews
+- [AKKO 3068B](akko3068b/README.md)
 
 ## QMK on Fedora 40:
 The pip install failed, so I use the Docker option:

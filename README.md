@@ -15,6 +15,7 @@ Notes and photos of mechanical keyboards mods and builds.
 
 ## Reviews
 - [AKKO 3068B](AKKO_3068B/README.md)
+- [MUCAI MK61-HEI](MUCAI-MK61/README.md)
 
 ## QMK on Fedora 40:
 The pip install failed, so I use the Docker option:

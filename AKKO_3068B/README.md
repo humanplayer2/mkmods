@@ -1,6 +1,6 @@
 # AKKO Blue on White 3068B Plus ISO
 
-AKKO was kind to send me a box containing their not-new 3086B 65% board for review, together with their tactile 55gf Creamy Purple Pro and their linear 40gf Rosewood switches.
+AKKO was kind to send me a box containing their not-new 3086B 65% board for review, together with their tactile 55gf Creamy Purple Pro and their linear 40gf Rosewood switches. Apart from getting this free of charge from AKKO, I have no conflicts of interest. I didn't send this to AKKO before posting it to [reddit](https://www.reddit.com/r/MechanicalKeyboards/comments/1g17z8c/review_akko_3068b_plus_iso/), and you can check my revision history prior to posting in the commit history, the commits Oct.8 - Oct.11, 2024.
 
 <img src="images/board_top.jpg" width="512"/>
 
@@ -46,7 +46,7 @@ I want to praise the keycaps for their regional support options, but also critic
 
 First, the praise: They support Danish, not just Nordic.
 
-This is Nordic:
+This is Nordic. Check the key at to the left of backspace. WTF goes on there? ÖØÆ and ÄÆØ. Yeah, that looks super nice. I love that.
 
 <img src="images/nordic.jpg" width="512"/>
 
@@ -56,7 +56,7 @@ This is Danish:
 
 See the difference?
 
-For context, here's a rant: I'm Danish. We have ÆØÅ in our alphabet. The Norwegians have the same, but flip Æ and Ø in their layout. The Finnish and Swedes also have ÆØÅ, but write them ÄÖÅ. Now, somebody got the great idea that they could lump all three languages into a Nordic keyboard layout, where the Danish Æ key could feature the legends Æ from Danish, Ø from Norwegian and Ö from Finnish/Swedish, while the Danish Ø key could have legends ØÆÄ. It's atrocious. Now look at the key to the right of backspace. WTF goes on there? If you go exploring further, find pipe---both of them. If you don't use accents and pipe/backspace often, how annoying is it that? Nordic layout is an abomination, a slap in the face, unforgivable. Keychron, I'm looking at you.
+For context, here's a rant: I'm Danish. We have ÆØÅ in our alphabet. The Norwegians have the same, but flip Æ and Ø in their layout. The Finnish and Swedes also have ÆØÅ, but write them ÄÖÅ. Now, somebody got the great idea that they could lump all three languages into a Nordic keyboard layout, where the Danish Æ key could feature the legends Æ from Danish, Ø from Norwegian and Ö from Finnish/Swedish, while the Danish Ø key could have legends ØÆÄ. It's atrocious. The accent key next to backspace---come on, how did you now stop yourself, designer? If you go exploring further, find pipe---both of them. If you don't use accents and pipe/backspace often, how annoying is it that? Nordic layout is an abomination, a slap in the face, unforgivable. Keychron, I'm looking at you.
 
 AKKO, thank you for not using the Nordic layout, but supporting Danish, Norwegian and Finnish=Swedish! For me, this makes a huge difference. This is definitely a thing I'll mention when pointing other Danes to keyboards brands.
 
@@ -73,7 +73,7 @@ Uhh, the sound of these Rosewood linears is quite nice! Very much an improvement
 
 The Cream Purple Pros: I think these are about as loud as the Jelly Pinks, but cleaner in their sound profile. They don't have that clattering. The sound is well-defined, clean and clear on both up- and downstroke. Not super deep, but rounded. I'd be happy with this sound.
 
-Ok, thinking about the tactility, I just had to throw in a few Gazzew U4Ts (spring swapped to 55gf), which are what I normally use. The Cream Purple Pros feel like they have a slightly smaller tactile bump, but its position feels the same as the U4Ts. Sound-wise, the U4Ts sound a bit louder and deeper to me. I think I could be happy with these Cream Purples, and will try them in my main board.
+Ok, thinking about the tactility, I just had to throw in a few Gazzew U4Ts (spring swapped to 55gf), which are what I normally use. The Cream Purple Pros feel like they have a slightly smaller tactile bump, but its position feels the same as the U4Ts. Sound-wise, the U4Ts sound a bit louder and deeper to me. I think I could be happy with these Cream Purples, and will try them in my main board. I understand why [u/rsnady](https://www.reddit.com/user/rsnady/) [was pleased with them](https://www.reddit.com/r/BudgetKeebs/comments/1drbpkc/tactile_switch_review_akko_v3_creamy_purple_pro/)!
 
 ## Software and Firmware
 Board and firmware are not made for remapping and layering enthusiasts. I'm a QMK + thumbkeys + lots-of-layers person, so I'm biased towards that here.

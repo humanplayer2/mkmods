@@ -28,16 +28,18 @@ git checkout c3773587e910f80c063a3edcaaefa76d3d844157
 Enter bootloader mode by holding the top left button while plugging the board in, or by twice quickly shorting `RST` and `GND` on the ProMicro while plugged in (this way, stays in bootloader only 8 sec. I think.)
 
 ```
-qmk flash -kb humanplayer2/laser -km paper
+qmk flash -kb humanplayer2/laser -km karousel
 ```
 
-On Fedora 40: To make `/dev/ttyACM0` writable, run in another terminal:
-
-```
-while true; do sudo chmod o+rw /dev/ttyACM0; ls -la /dev/ttyACM0; sleep 1; done
-```
-
+### Used features
 I use **Custom Shift Keys** by Pascal Getreuer. He has a lot of [other neat QMK tricks](https://getreuer.info/posts/keyboards/triggers/index.html#when-mod-combo-is-held), too, including [Achordion for homerow mods](https://getreuer.info/posts/keyboards/achordion/index.html).
+
+
+### Fedora 40 hangs at `Waiting for /dev/ttyACM0 to become writable.`
+Dirty bypass, run in another terminal `while true; do sudo chmod o+rw /dev/ttyACM0; ls -la /dev/ttyACM0; sleep 1; done`. Proper solution is suggested by `qmk doctor`, about missing `udev` rules for `catarina` boards. I ran the suggested command, which fixed the issue:
+
+```sudo cp /home/rasmus/qmk_firmware/util/udev/50-qmk.rules /etc/udev/rules.d/```
+
 
 ## A Bit of Build
 

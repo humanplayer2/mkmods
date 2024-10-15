@@ -4,14 +4,40 @@ This board's name pays homage to the line of trackpoint boards from [TEX](tex.co
 
 ## QMK
 
-The `mkmods/qmk_firmware/keyboards/laser` directory contains my keymap. To flash,
-- `git clone https://github.com/humanplayer2/mkmods`
-- setup QMK in some directory (default is `$HOME`), then copy or symlink `keyboards/laser` there:
- ```ln -s $PWD/mkmods/qmk_firmware/keyboards/humanplayer2 $HOME/qmk_firmware/keyboards```
-- enter bootloader mode by holding the top left button while plugging the board in, or by twice quickly shorting `RST` and `GND` on the ProMicro while plugged in (this way, stays in bootloader only 8 sec. I think)
-- `cd <qmk-home>; make  humanplayer2/laser:default:flash` -- or `qmk flash -kb laser -km default`
+The `mkmods/qmk_firmware/keyboards/humanplayer2/laser` directory contains my keymap. To flash:
 
-I use **Custom Shift Keys** by Pascal Getreuer. He has a lot of other neat [QMK tricks, too](https://getreuer.info/posts/keyboards/triggers/index.html#when-mod-combo-is-held), [Achordion for homerow mods](https://getreuer.info/posts/keyboards/achordion/index.html).
+```
+git clone https://github.com/humanplayer2/mkmods
+```
+
+Setup QMK in some directory (default is `$HOME`), then copy or symlink `keyboards/humanplayer2` there:
+
+
+```
+pip install qmk
+qmk setup
+ln -s $PWD/mkmods/qmk_firmware/keyboards/humanplayer2 $HOME/qmk_firmware/keyboards
+```
+The mouse keys become unresponsive for single clicks after some QMK commit. I havn't narrowed down which, but the hash of the version working for me is `c3773587e910f80c063a3edcaaefa76d3d844157` of the `master` branch. Check it out by
+
+```
+qmk cd
+git checkout c3773587e910f80c063a3edcaaefa76d3d844157
+```
+
+Enter bootloader mode by holding the top left button while plugging the board in, or by twice quickly shorting `RST` and `GND` on the ProMicro while plugged in (this way, stays in bootloader only 8 sec. I think.)
+
+```
+qmk flash -kb humanplayer2/laser -km paper
+```
+
+On Fedora 40: To make `/dev/ttyACM0` writable, run in another terminal:
+
+```
+while true; do sudo chmod o+rw /dev/ttyACM0; ls -la /dev/ttyACM0; sleep 1; done
+```
+
+I use **Custom Shift Keys** by Pascal Getreuer. He has a lot of [other neat QMK tricks](https://getreuer.info/posts/keyboards/triggers/index.html#when-mod-combo-is-held), too, including [Achordion for homerow mods](https://getreuer.info/posts/keyboards/achordion/index.html).
 
 ## A Bit of Build
 

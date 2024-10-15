@@ -176,7 +176,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_RMOD] = LAYOUT(
-      G(KC_ESC),   KC_MAIL,    KC_MYCM,  KC_CALC,    KC_NO,      KC_NO,            KC_NO,     KC_NO,    KC_NO,       KC_NO,      KC_NO,     G(KC_F12),
+      G(KC_ESC),   G(KC_F3),    KC_MYCM,  KC_CALC,    KC_NO,      KC_NO,            KC_NO,     KC_NO,    KC_NO,       KC_NO,      KC_NO,     G(KC_F12),
       G(KC_F2),    C(KC_PGUP), KC_P1,    C(KC_PGDN), C(KC_W),    KC_NO,            KC_NO,     KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
       G(KC_TAB),   KC_P3,      KC_P5,    RCTL_P7,    C(KC_T),    _______,          G(KC_F4),  KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
       _______,     G(DK_MINUS),G(KC_C),  G(DK_PLUS), G(KC_V),    _______,          KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,

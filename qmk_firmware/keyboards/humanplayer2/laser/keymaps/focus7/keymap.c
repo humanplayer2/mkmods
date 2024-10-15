@@ -200,8 +200,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // ),
     [_RMOD] = LAYOUT(
       G(KC_ESC),   G(KC_F3),   G(KC_F4),   KC_NO,      KC_NO,      KC_NO,         KC_NO,     KC_NO,    KC_NO,       KC_NO,      KC_NO,     G(KC_F12),
-      G(KC_F2),    C(KC_PGUP), G(KC_UP),   C(KC_PGDN), C(KC_T),    KC_NO,         KC_NO,     KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
-      G(KC_TAB),   G(KC_LEFT), G(KC_DOWN), G(KC_RIGHT),    C(KC_W),    _______,       _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
+      G(KC_F2),    C(KC_PGUP), G(KC_F),   C(KC_PGDN), C(KC_T),    KC_NO,         KC_NO,     KC_DEL,   KC_HOME,     KC_UP,      KC_END,    _______,
+      G(KC_TAB),   G(KC_R), G(KC_S), G(KC_T),    C(KC_W),    _______,       _______,   KC_BSPC,  KC_LEFT,     KC_DOWN,    KC_RIGHT,  _______,
       _______,     LAG(KC_R),  A(KC_LEFT), LAG(KC_T),  G(KC_V),    _______,       KC_NO,     KC_APP,   C(KC_INS),   S(KC_INS),  C(KC_X),   _______,
       _______,     _______,    KC_NO,      _______,    _______,    _______,       _______,   _______,    _______,    KC_NO,     _______,   C(KC_Z)
     ),

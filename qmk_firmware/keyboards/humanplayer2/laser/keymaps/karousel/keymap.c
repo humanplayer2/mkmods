@@ -168,34 +168,34 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
-      KC_F1,       KC_F3,      KC_F4,     KC_F5,       KC_F6,      KC_NO,             KC_NO,      KC_F7,      KC_F8,       KC_F9,      KC_F10,     KC_PSCR,
-      KC_F2,       KC_W,       KC_F,      KC_P,        KC_B,       KC_NO,             KC_NO,      KC_J,       KC_L,        KC_U,       KC_Y,       KC_F11,
-      KC_TAB,      KC_R,       KC_S,      KC_T,        KC_G,       VOL_UP,            VOL_MU,     KC_M,       KC_N,        KC_E,       KC_I,       KC_Z,
-      ALT_Q,       KC_X,       KC_C,      KC_D,        KC_V,       DK_E_AIGU,         KC_NO,      KC_K,       KC_H,        KC_COMMA,   KC_DOT,     DK_AE,
-      OE_NUM,      KC_A,       KC_NO,     RCTL_ESC,    SH_SPC,     KC_BTN1,           KC_BTN3,    RM_SPC,     LT_ENTER,    KC_NO,      KC_O,       DK_AA
+      KC_F1,       KC_F2,      KC_F3,     KC_F4,       KC_F5,      KC_F6,                                     KC_F7,       KC_F8,      KC_F9,      KC_F10,    KC_F11,     KC_PSCR,
+      KC_TAB,      ALT_Q,      KC_W,      KC_F,        KC_P,       KC_B,                                      KC_J,        KC_L,       KC_U,       KC_Y,      DK_AE,      KC_Z,
+      OE_NUM,      KC_A,       KC_R,      KC_S,        KC_T,       KC_G,       VOL_UP,            VOL_MU,     KC_M,        KC_N,       KC_E,       KC_I,      KC_O,       DK_AA,
+                               KC_X,      KC_C,        KC_D,       KC_V,       DK_E_AIGU,                     KC_K,       KC_H,        KC_COMMA,   KC_DOT,
+                                                       RCTL_ESC,   SH_SPC,     KC_BTN1,           KC_BTN3,    RM_SPC,      LT_ENTER
     ),
 
     [_RMOD] = LAYOUT(
-      G(KC_ESC),   G(KC_F3),   G(KC_F4),  G(KC_F5),    G(KC_F6),   KC_NO,             KC_NO,      G(KC_F7),   G(KC_F8),    G(KC_F9),   G(KC_F10),  G(KC_PSCR),
-      G(KC_F2),    C(KC_PGUP), KC_P1,     C(KC_PGDN),  C(KC_W),    KC_NO,             KC_NO,      KC_DEL,     KC_HOME,     KC_UP,      KC_END,     G(KC_F11),
-      G(KC_TAB),   KC_P3,      KC_P5,     RCTL_P7,     C(KC_T),    G(VOL_UP),         G(VOL_MU),  KC_BSPC,    KC_LEFT,     KC_DOWN,    KC_RIGHT,   G(KC_Z),
-      G(ALT_Q),    G(DK_MINUS),G(KC_C),   G(DK_PLUS),  G(KC_V),    G(DK_E_AIGU),      KC_NO,      KC_APP,     C(KC_INS),   S(KC_INS),  C(KC_X),    G(DK_AE),
-      A(KC_LEFT),  _______,    KC_NO,     RCTL_EXEC,   _______,    G(KC_SPACE),       _______,    _______,    G(KC_ENTER),     KC_NO,  _______,    C(KC_Z)
+      G(KC_ESC),   G(KC_F2),   G(KC_F3),    G(KC_F4),  G(KC_F5),   G(KC_F6),                                  G(KC_F7),   G(KC_F8),    G(KC_F9),   G(KC_F10),  G(KC_F11), G(KC_PSCR),
+      G(KC_TAB),   G(ALT_Q),   C(KC_PGUP),  KC_P1,     C(KC_PGDN), C(KC_W),                                   KC_DEL,     KC_HOME,     KC_UP,      KC_END,     G(DK_AE),  G(KC_Z),
+      A(KC_LEFT),  _______,    KC_P3,       KC_P5,     RCTL_P7,    C(KC_T),    G(VOL_UP),         G(VOL_MU),  KC_BSPC,    KC_LEFT,     KC_DOWN,    KC_RIGHT,   _______,   C(KC_Z),
+                               G(DK_MINUS), G(KC_C),   G(DK_PLUS), G(KC_V),    G(DK_E_AIGU),                  KC_APP,     C(KC_INS),   S(KC_INS),  C(KC_X),
+                                                       RCTL_EXEC,  _______,    G(KC_SPACE),       _______,    _______,    G(KC_ENTER)
     ),
 
     [_SYM] = LAYOUT(
-      KC_NO,    KC_NO,     KC_NO,    KC_NO,     KC_NO,   KC_NO,          KC_NO,     KC_NO,      KC_NO,     KC_NO,     KC_NO,    KC_NO,
-      KC_NO,    DK_AMPR,   KC_EXLM,  DK_QUES,   DK_DOL,  _______,        _______,    DK_STAR,    KC_HASH,   KC_BSLS,   DK_GRV,   KC_NO,
-      CW_TOGG,  _______,   _______,  _______,   _______, _______,        _______,    DK_SLSH,    DK_LPRN,   DK_LBRC,   DK_LCBR,  DK_PIPE,
-      _______,  _______,   _______,  _______,   _______, _______,         KC_NO,     DK_PLUS,    DK_MINUS, S(DK_MINUS),DK_EQUAL, DK_AT,
-      _______,  _______,   KC_NO,    _______,   _______, _______,        _______,    _______,    _______,   KC_NO,     DK_LABK,  DK_TILDE
+      KC_NO,       KC_NO,      KC_NO,       KC_NO,     KC_NO,      KC_NO,                         KC_NO,      KC_NO,      KC_NO,     KC_NO,        KC_NO,      KC_NO,
+      CW_TOGG,     _______,    DK_AMPR,     KC_EXLM,   DK_QUES,    DK_DOL,                        DK_STAR,    KC_HASH,    KC_BSLS,   DK_GRV,       DK_AT,      DK_PIPE,
+      _______,     _______,    _______,     _______,   _______,    _______,    _______,           _______,    DK_SLSH,    DK_LPRN,   DK_LBRC,      DK_LCBR,    DK_LABK,   DK_TILDE,
+                               _______,     _______,   _______,    _______,    _______,                       DK_PLUS,    DK_MINUS,  S(DK_MINUS),  DK_EQUAL,
+                                                       _______,    _______,    _______,           _______,    _______,    _______
     ),
 
     [_NUM] = LAYOUT(
-      _______,  _______,   _______,  _______,   _______,  KC_NO,         KC_NO,    _______,    _______,    _______,    _______,    _______,
-      _______,  _______,   _______,  _______,   _______,  _______,       _______,  _______,    KC_1,       KC_2,       KC_3,       _______,
-      _______,  _______,   _______,  _______,   _______,  _______,       _______,  _______,    KC_4,       KC_5,       KC_6,       _______,
-      _______,  _______,   _______,  _______,   _______,  _______,       KC_NO,    _______,    KC_7,       KC_8,       KC_9,       _______,
-      _______,  _______,   KC_NO  ,  _______,   _______,  _______,       _______,  _______,    _______,    KC_NO,      KC_0,       _______
+      _______,     _______,    _______,     _______,   _______,    _______,                                  _______,    _______,    _______,      _______,   _______,   _______,
+      _______,     _______,    _______,     _______,   _______,    _______,                                  _______,    KC_1,       KC_2,         KC_3,      _______,   _______,
+      _______,     _______,    _______,     _______,   _______,    _______,    _______,           _______,   _______,    KC_4,       KC_5,         KC_6,      KC_0,      _______,
+                               _______,     _______,   _______,    _______,    _______,                      _______,    KC_7,       KC_8,         KC_9,
+                                                       _______,    _______,    _______,           _______,   _______,    _______
     ),
 };

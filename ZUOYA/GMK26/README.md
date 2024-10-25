@@ -1,7 +1,7 @@
 # ZUOYA GMK26
 
 > ## Content
-> [Out of the box](#introduction)  
+> [Introduction](#introduction)  
 > [Out of the box](#out-of-the-box)  
 > [VIA](#via)  
 > [QMK?](#qmk?)

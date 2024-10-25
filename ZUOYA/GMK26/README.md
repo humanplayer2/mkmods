@@ -28,7 +28,7 @@ Personally, I think the default sound profile is nice. Not the deepest, but not 
     - Go to the design tab.
     - Check that V2 definitions are disabled.
     - Drag-n-drop or `Load` the downloaded JSON file.
-    - > **Optional**: Toggle `Split Backspace og Big Spacebar` to your liking. This can always be changed now under `Configure > Layouts`.
+    - > **Optional**: Toggle `Split Backspace og Big Spacebar` to your liking. This can always be changed under `Configure > Layouts`.
 5. Go to the `Configure` tab, authorize and remap your makropad!
     - > [Keychron has a VIA introduction](https://www.keychron.com/blogs/archived/how-to-use-via-to-program-your-keyboard).
 

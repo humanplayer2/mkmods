@@ -12,6 +12,7 @@ Notes and photos of mechanical keyboards mods and builds.
 
 ## Builds
 - [Tokyo60: Some notes on QMK/VIA](Tokyo60/README.md)
+- [ZUOYA GMK26: Notes on build quality, VIA instructions](Tokyo60/README.md)
 
 ## Reviews
 - [AKKO 3068B](AKKO_3068B/README.md)

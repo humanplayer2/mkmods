@@ -21,7 +21,7 @@ Personally, I think the default sound profile is nice. Not the deepest, but not 
 
 1. Download [ZUOYA_GMK26.json](ZUOYA_GMK26.json) from this repo.
     - It's a simplified, English-only version of that from
-[the Chinese NAVER blog](https://blog.naver.com/PostView.naver?blogId=thrufunlife&logNo=223557922108&noTrackingCode=true). I removed the encoder toggle as you can't physically remove the encoder.
+[the Korean NAVER blog](https://blog.naver.com/PostView.naver?blogId=thrufunlife&logNo=223557922108&noTrackingCode=true). I removed the encoder toggle as you can't physically remove the encoder.
 2. Open [usevia.app](http://usevia.app) in a Chromium-based browser.
 3. Under`Settings`, activate `Show Design tab`.
 4. Load the JSON file:

@@ -18,6 +18,7 @@ Stablizers are rattle-free. I hear no pings from the switches, neither when in p
 Personally, I think the default sound profile is nice. Not the deepest, but not overly sharp. It's not quite.
 
 ## VIA
+The macropad works with VIA, and that's nice.
 
 1. Download [ZUOYA_GMK26.json](ZUOYA_GMK26.json) from this repo.
     - It's a simplified, English-only version of that from
@@ -44,4 +45,9 @@ Personally, I think the default sound profile is nice. Not the deepest, but not 
 
 ## QMK?
 
-The offcial ZUOYA Store on AliExpress sells this makropad stating that it supports **"QMK/VIA"**. It works with VIA, and that's of course super nice! I've contacted the store to see if I can get a hold of some QMK source code, because being able to flash a home-compiled QMK firmware would give me ~~satisfaction.~~ a sense of power. Honesty first.
+The offcial ZUOYA Store on AliExpress sells this macropad stating that it supports **"QMK/VIA"**. I've contacted the store to see if I can get a hold of some QMK source code, because being able to flash a home-compiled QMK firmware would give me ~~satisfaction.~~ a sense of power. Honesty first.
+
+[u/ArgentStonecutter](https://www.reddit.com/user/ArgentStonecutter/) suggested to test whether the pad is running real QMK underneath (or some alternative firmwware that can be interface with VIA). [Their suggested test](https://www.reddit.com/r/BudgetKeebs/comments/1gd85lo/comment/lu0u5hz/) is to check whether tap-hold keys are supported. Gladly, they are: through `Special > Any`, I assigned a key `LT(1, KC_BSPC)`. I send `Backspace` when tapped, and activated `Layer 1` when held. This doesn't prove that the pad runs QMK underneath of course, but it fails to prove that it doesn't.
+
+If it does run QMK, Zuoya should release the source code [to not violate the license as they seemingly are already](https://github.com/qmk/qmk_firmware/issues/24085).
+

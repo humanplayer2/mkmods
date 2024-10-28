@@ -6,7 +6,7 @@ Notes and photos of mechanical keyboards mods and builds.
 - [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](LaserProsthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](FrejasHitbox/README.md)
 - [Lite-Puter Footpanel: Light-controller rewired to run QMK](LitePuter/README.md)
-- [Scraps34: A split build on a TKL plate](Scraps34/README.md)
+- [Scraps34: A split build on a sawn TKL plate](Scraps34/README.md)
 
 ## Mods
 - [Anne Pro 2: Hotswap mod using cheap rivets](AnnePro2/README.md)

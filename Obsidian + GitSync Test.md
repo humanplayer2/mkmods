@@ -1,0 +1,1 @@
+Obsidian and GitSync on Android set up with SSH key as deploy key only on this repo. 

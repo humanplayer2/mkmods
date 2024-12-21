@@ -1,9 +1,9 @@
 # Mechanical Keyboard Mods
 
-Notes and photos of mechanical keyboards mods and builds.
+Well, perhaps less mods than just notes and photos of builds :D
 
 ## Handwired Builds
-- [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](LaserProsthetic/README.md)
+- Daily driver. [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](LaserProsthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](FrejasHitbox/README.md)
 - [Lite-Puter Footpanel: Light-controller rewired to run QMK](LitePuter/README.md)
 - [Scraps34: A split build on a sawn TKL plate](Scraps34/README.md)

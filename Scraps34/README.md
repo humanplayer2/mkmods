@@ -18,6 +18,8 @@ The extra switch holes on top were meant for extra keys. The idea was to have th
 
 <img src="images/done_top2.jpg" width="512"/>
 
+As controller, I'm using a ProMicro clone with an RP2040 chip. A controller with fewer pins would definitely suffice, but again, I had plans to add a trackpoint/joystick. So I wanted some free pins. 
+
 <img src="images/plate.jpg" width="512"/>
 
 <img src="images/plate_cut.jpg" width="512"/>
@@ -25,6 +27,8 @@ The extra switch holes on top were meant for extra keys. The idea was to have th
 Acrylic paint works as an isolator. That was easy.
 
 <img src="images/done_bottom.jpg" width="512"/>
+
+I built it with hotswap sockets as I had them lying around. That's not necessary of course.
 
 <img src="images/soldering.jpg" width="512"/>
 

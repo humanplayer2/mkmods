@@ -2,7 +2,7 @@ For a deeper sounding spacebar, I like adding adhesive putty.
 
 ![](images/0.jpg)
 
-I take small lumbs and press them directly into the spacebar. There are typically some "support walls" one the underside. I fill up to the edge of those. Then there's no interference with switch and stabilizer. 
+I take small lumbs and press them directly into the spacebar. There are typically some "support walls" on the underside. I fill up to the edge of those. Then there's no interference with switch and stabilizer.
 
 I use various things to push it into place: fingers, cue-tips, a pry tool.
 

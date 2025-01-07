@@ -6,7 +6,7 @@ Build and sold with qPBT Terminal keycaps and MMD Princess linear switches. More
 
 I did a forcebreak mod between the two pieces of case, which removed an annoying pinging. I also did a basic tape mod.
 
-<img src="photos/angled.jpg" width="512"/>
+<img src="images/angled.jpg" width="512"/>
 
 ## To flash and run VIA
 - Download and setup QMK
@@ -15,10 +15,10 @@ I did a forcebreak mod between the two pieces of case, which removed an annoying
 - Open `usevia.app` in browser (Chromium).
   - Got _Received invalid protocol version from device_. [Per this comment](https://github.com/the-via/releases/issues/257), I accessed `chrome://device-log/` and saw `Failed to open '/dev/hidraw1': FILE_ERROR_ACCESS_DENIED`. Running `sudo chown $USER:$USER /dev/hidraw1` solved problem.
 
-<img src="photos/top.jpg" width="512"/>
+<img src="images/top.jpg" width="512"/>
 
-<img src="photos/side.jpg" width="512"/>
+<img src="images/side.jpg" width="512"/>
 
-<img src="photos/closeup.jpg" width="512"/>
+<img src="images/closeup.jpg" width="512"/>
 
-<img src="photos/kit.jpg" width="512"/>
+<img src="images/kit.jpg" width="512"/>

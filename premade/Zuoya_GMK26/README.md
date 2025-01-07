@@ -10,7 +10,8 @@
 
 ## Introduction
 
-![[premade/Zuoya_GMK26/images/0.jpg]]
+
+![0](premade/Zuoya_GMK26/images/0.jpg)
 
 More photos in the bottom.
 
@@ -56,40 +57,40 @@ If it does run QMK, Zuoya should release the source code [to not violate the lic
 
 ## Photos
 
-![[premade/Zuoya_GMK26/images/0.jpg]]
+![0](premade/Zuoya_GMK26/images/0.jpg)
 
-![[premade/Zuoya_GMK26/images/1.jpg]]
+![0](premade/Zuoya_GMK26/images/1.jpg)
 
-![[premade/Zuoya_GMK26/images/2.jpg]]
+![0](premade/Zuoya_GMK26/images/2.jpg)
 
-![[premade/Zuoya_GMK26/images/3.jpg]]
+![0](premade/Zuoya_GMK26/images/3.jpg)
 
-![[premade/Zuoya_GMK26/images/4.jpg]]
+![0](premade/Zuoya_GMK26/images/4.jpg)
 
-![[premade/Zuoya_GMK26/images/5.jpg]]
+![0](premade/Zuoya_GMK26/images/5.jpg)
 
-![[premade/Zuoya_GMK26/images/6.jpg]]
+![0](premade/Zuoya_GMK26/images/6.jpg)
 
-![[premade/Zuoya_GMK26/images/7.jpg]]
+![0](premade/Zuoya_GMK26/images/7.jpg)
 
-![[premade/Zuoya_GMK26/images/8.jpg]]
+![0](premade/Zuoya_GMK26/images/8.jpg)
 
-![[premade/Zuoya_GMK26/images/9.jpg]]
+![0](premade/Zuoya_GMK26/images/9.jpg)
 
-![[premade/Zuoya_GMK26/images/10.jpg]]
+![0](premade/Zuoya_GMK26/images/10.jpg)
 
-![[premade/Zuoya_GMK26/images/11.jpg]]
+![0](premade/Zuoya_GMK26/images/11.jpg)
 
-![[premade/Zuoya_GMK26/images/12.jpg]]
+![0](premade/Zuoya_GMK26/images/12.jpg)
 
-![[premade/Zuoya_GMK26/images/13.jpg]]
+![0](premade/Zuoya_GMK26/images/13.jpg)
 
-![[premade/Zuoya_GMK26/images/14.jpg]]
+![0](premade/Zuoya_GMK26/images/14.jpg)
 
-![[premade/Zuoya_GMK26/images/15.jpg]]
+![0](premade/Zuoya_GMK26/images/15.jpg)
 
-![[premade/Zuoya_GMK26/images/16.jpg]]
+![0](premade/Zuoya_GMK26/images/16.jpg)
 
-![[premade/Zuoya_GMK26/images/17.jpg]]
+![0](premade/Zuoya_GMK26/images/17.jpg)
 
-![[premade/Zuoya_GMK26/images/18.jpg]]
+![0](premade/Zuoya_GMK26/images/18.jpg)

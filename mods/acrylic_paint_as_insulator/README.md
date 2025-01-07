@@ -1,9 +1,9 @@
-# Insolating handwired builds easily with acrylic paint
+# Insulating handwired builds easily with acrylic paint
 
 ## TL;DR
 It works. 
 
-![[0.jpg]]
+![](images/0.jpg)
 
 ## What more do I know?
 

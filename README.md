@@ -10,8 +10,8 @@ Well, perhaps less mods than just notes and photos of boards I've fiddled with :
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)
-- [Heat shrink on stablizers to reduced rattle (didn't work)](mods/heat_shrink_on_stablizers/README.md)
-- [Insolating handwired builds easily with acrylic paint](mods/acrylic_paint_as_insolator/README.md)
+- [Heat shrink on stablizers to reduce rattle (didn't work)](mods/heat_shrink_on_stablizers/README.md)
+- [Insulating handwired builds easily with acrylic paint](mods/acrylic_paint_as_insulator/README.md)
 - [Hotswap mod using cheap rivets](mods/rivet_hotswap/README.md)
 
 ## Premade Boards

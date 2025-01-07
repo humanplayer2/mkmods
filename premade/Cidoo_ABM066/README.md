@@ -1,6 +1,6 @@
 # Cidoo ABM066
 
-A Cidoo ABM066 build with Jaycomia WoB keycaps from AliExpress, Gateron Milky Yellow Pro switches. Very easy to make sound nice.
+An Alice layout board build with Jaycomia WoB keycaps from AliExpress and Gateron Milky Yellow Pro switches. Very easy to make sound nice.
 
 ![0](images/0.jpg)
 ![0](images/1.jpg)

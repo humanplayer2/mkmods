@@ -15,7 +15,7 @@
 
 More photos in the bottom.
 
-Split spacebar by default, can be replaced with big 2u spacebar, but there is no stablizer for it. 🟠 Does the plate allow a stabilizer? If it does, some of the top sticky-foam must be cut away.
+Two top right keys can be replaced with a 2u Backspace. The platecannot accommodate a stabliziser there, and none was included.
 
 ## Out of the box
 Stablizers are rattle-free. I hear no pings from the switches, neither when in place or when held to ear. The keycaps are dye-sub, with very clean legends everywhere.
@@ -49,11 +49,27 @@ The macropad works with VIA, and that's nice.
 
 ## QMK?
 
-The official ZUOYA Store on AliExpress sells this macropad stating that it supports **"QMK/VIA"**. I've contacted the store to see if I can get a hold of some QMK source code, because being able to flash a home-compiled QMK firmware would give me ~~satisfaction.~~ a sense of power. Honesty first. _Update_: An inquiry about both VIA JSON and QMK source was replied to with a promise that they send it to my email. It never arrived, on either of the mails I provided. I've send a number of reminders, and have now opened a refund request, citing missing items.
+### Source from Zuoya
+
+The official ZUOYA Store on AliExpress sells this macropad stating that it supports **"QMK/VIA"**. I've contacted the store to see if I can get a hold of some QMK source code, because being able to flash a home-compiled QMK firmware would give me ~~satisfaction.~~ a sense of power. Honesty first. 
+
+_Update 1_:
+ An inquiry about both VIA JSON and QMK source was replied to with a promise that they send it to my email. It never arrived, on either of the mails I provided. I've send a number of reminders, and have now opened a refund request, citing missing items. 
+
+_Update 2:_
+I was just asked to return it. I didn't, as it's for a friend. I gave up on the communication.
+
+> TODO: Write a review on AliExpress scolding them.
+
+_Update 3:_
+> TODO: Add screenshot of conversation from Alibaba where Zuoya rep concludes with "sorry".
+
+### Real QMK?
 
 [u/ArgentStonecutter](https://www.reddit.com/user/ArgentStonecutter/) suggested to test whether the pad is running real QMK underneath (or some alternative firmwware that can be interface with VIA). [Their suggested test](https://www.reddit.com/r/BudgetKeebs/comments/1gd85lo/comment/lu0u5hz/) is to check whether tap-hold keys are supported. Gladly, they are: through `Special > Any`, I assigned a key `LT(1, KC_BSPC)`. I send `Backspace` when tapped, and activated `Layer 1` when held. This doesn't prove that the pad runs QMK underneath of course, but it fails to prove that it doesn't.
 
 If it does run QMK, Zuoya should release the source code [to not violate the license as they seemingly are already](https://github.com/qmk/qmk_firmware/issues/24085).
+
 
 ## Photos
 

@@ -14,11 +14,11 @@ Well, perhaps less mods than just notes and photos of builds :D
 ## Builds
 - [ZUOYA GMK26: Notes on build quality, VIA instructions](premade/Zuoya_GMK26/README.md)
 - [Tokyo60 w. Terminal keycaps: Photos, notes on QMK/VIA](Tokyo60/README.md)
-- [[premade/NCR80/README|NCR80 w. retro keycap photos]]
-- [[premade/Zuoya_GMK26/README|ZUOYA GMK26: Notes on build quality, VIA instructions]]
-- [[premade/Zuoya_GMK87/README|ZUOYA GMK87: Black w. Apollo clones and Camel w. retro]]
-- [[premade/Cidoo_ABM066/README|Cidoo ABM066: Black w. WoB keycaps]]
+- [NCR80 w. retro keycap photos](premade/NCR80/README.md)
+- [ZUOYA GMK26: Notes on build quality, VIA instructions](premade/Zuoya_GMK26/README.md)
+- [ZUOYA GMK87: Black w. Apollo clones and Camel w. retro]([premade/Zuoya_GMK87/README.md)
+- [Cidoo ABM066: Black w. WoB keycaps](premade/Cidoo_ABM066/README.md)
 
 ## Straight-up Reviews
-- [[premade/AKKO_3068B/README|AKKO 3068B (DK keycaps, sponsored]]
-- [[premade/MUCAI_MK61/README|MUCAI MK61 (10$ complete hotswap 60% board)]]
+- [AKKO 3068B (DK keycaps, sponsored](premade/AKKO_3068B/README.md)
+- [MUCAI MK61 (10$ complete hotswap 60% board)](premade/MUCAI_MK61/README.md)

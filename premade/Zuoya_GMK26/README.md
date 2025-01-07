@@ -11,7 +11,7 @@
 ## Introduction
 
 
-![0](premade/Zuoya_GMK26/images/0.jpg)
+![0](images/0.jpg)
 
 More photos in the bottom.
 

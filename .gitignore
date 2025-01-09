@@ -1,5 +1,4 @@
 .directory
 .obsidian
-*.exe
 *.wip
-
+*.exe 

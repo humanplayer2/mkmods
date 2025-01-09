@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 .directory
-*.exe
-=======
-.directory 
 .obsidian
->>>>>>> a01c097822fb783590e98e9da25fd9c5b53e36d4
+*.exe
+*.wip
+

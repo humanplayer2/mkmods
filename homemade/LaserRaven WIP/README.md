@@ -11,15 +11,15 @@
 ![](images/kicad_pcb.png)
 
 ## Trackpoint
-I really like ThinkPads. X301, you hold my heart. Not least for their trackpoints. I love trackpoints. For the type of work I do, I need no other pointing device.
+I really like ThinkPads (X301, you hold my heart). Not least for their trackpoints. I love trackpoints. For my day-to-day computing, I need no other pointing device.
 
-## Number of alpha keys
+## 32 alpha keys
 As a Dane writing frequent Danish and English, on my main layer, I want a 29 letter alphabet (ABC...WXYZ+ÆØÅ). I also want dot and comma. That's 31 keys. For symmetry, that makes 32 keys. The last is for tab.
 
 ## Pinky fans
-I like a somewhat aggresive pinky stagger of 1u. I don'd find it nice to reach further down than that, so I have no pinky keys under the home row.
+I like a somewhat aggresive pinky stagger of 1u. I don't find it nice to reach further down than that, so I have no pinky keys under the home row.
 
-I'm not good at my pinky directly up. On my Laser Prosthetic, I have pinky clusters where I reach up and out a bit. That's fine, but requires a bit of a hand lift.
+I'm not good at hitting a key directly up from home with my pinky. On my [Laser Prosthetic](../LaserProsthetic/README.md), I have pinky clusters where I reach up and out a bit. That's fine, but requires a bit of a hand lift.
 
 With the outer-most key on this board, I'm experimenting with how it'll feel to reach only out, but not up. I've arragned the keys in a fan with a radius the length of my pinky. This way, I hope to have three keys easily reachable with each pinky.
 
@@ -31,7 +31,7 @@ Instead, I've taken a page from the book of my 100 wpm collegue, who types witho
 ![](images/kle_qwerty.jpg)
 *KLE sketch of keys for DK Qwerty. Dash (-) marks home row keys.*
 
-## Thumb keys and layers
+## Thumb keys, mouse buttons and layers
 I use 6 thumb keys because this is the maximum amount I find nice to reach.
 
 Two thumb keys are for the trackpoint: One for left click (and dragging), one middle click (and scrolling). Right click is Shift + middle click.

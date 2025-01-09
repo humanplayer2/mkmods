@@ -1,5 +1,6 @@
 .directory
 .obsidian
+.trash
 *.exe
 *.wip
 

@@ -1,12 +1,12 @@
-For a deeper sounding spacebar, I like adding adhesive putty.
+For a deeper sounding spacebar, an old household tip is to add adhesive putty. 
 
 ![](images/0.jpg)
 
-I take small lumbs and press them directly into the spacebar. There are typically some "support walls" on the underside. I fill up to the edge of those. Then there's no interference with switch and stabilizer.
+You can take small lumbs and press them directly into the spacebar. There are typically some "support walls" on the underside. Filling up to the edge of those causes no interference with switch and stabilizer.
 
-I use various things to push it into place: fingers, cue-tips, a pry tool.
+I lake sure to push the putty in deep, into all the corners, to maximize the area of the keycap that it touches. I'm thinking this increases the effect, as sound waves will travel to the putty more. Fingers, cue-tips and pry tools can all be used to push it into place.
 
-I find putty easier and more effective than filling them with rolled up painter's tape or cutting pieces of foam.
+I find putty easier and more effective than filling space bars with rolled up painter's tape or cutting pieces of foam.
 
 It's not too difficult to remove.
 

@@ -67,10 +67,10 @@ We jointly colored the plate with pens that could have been fresher 😅
 
 <img src="photos/coloring.jpg" width="512" style="display: block; margin: 0 auto"/>
 
-
-
 <img src="photos/bead case top.jpg" width="512" style="display: block; margin: 0 auto"/>
 
 ### Later
 
-She'd played some, and fun with it, but it's not something she particularly asks to do. She improved a lot.
+She's played some, and had fun with it, but it's not something she particularly asks to do. She's improved a lot.
+
+I wonder if clicky switches would be better than linears for learning what it means to press two keys at the same time or twice in quick succession.

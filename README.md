@@ -2,7 +2,7 @@
 
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
-GitSync pull test. Conflict. Bar.
+GitSync pull test. Conflict. Bar. Bar. 
 GitSync pull test. Discrepancy.
 
 ## Homemade Boards

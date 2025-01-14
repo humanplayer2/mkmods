@@ -2,7 +2,7 @@
 
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
-GitSync pull test.
+GitSync pull test. Discrepancy.
 
 ## Homemade Boards
 - Daily driver: [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/LaserProsthetic/README.md)

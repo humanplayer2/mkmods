@@ -1,5 +1,5 @@
 # Laser Raven
-*Laser Corvus Corax*  
+*Laser Corvus Corax. Designed with ![Ergogen](https://github.com/ergogen/ergogen)*
 
 **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
 
@@ -38,6 +38,9 @@ Two thumb keys are for the trackpoint: One for left click (and dragging), one mi
 
 I use six layers: Shift, Ctrl, Alt, Navigation, Numbers and Symbols. Four are on thumb keys, while the two least used are on pinkies (Alt and Numbers).
 
+## Ergogen & Kicad
+I have followed ![FlatFootFox's eminent guide to Ergogen](https://flatfootfox.com/ergogen-part1-units-points/). I use ![Ergogen](https://github.com/ergogen/ergogen) through the command line, on Fedora. Install by `sudo npm -g i ergogen`. From the board's `ergogen` directory, run `ergogen config.yaml`. From there, traces have to be drawn manually in Kicad.
+
 ## Components
 
 ### Board
@@ -47,7 +50,7 @@ I use six layers: Shift, Ctrl, Alt, Navigation, Numbers and Symbols. Four are on
 - 38 XYZ diodes
 
 ### Case
-- 1,5 mm black acrylic that fits XYZ 
+- 1,5 mm black acrylic that fits XYZ
 
 https://e-plast.dk/shop/plastplader/ps/polystyren-plade-sort-mat-mat-1006mm-x-1406mm-x-1-5mm
 

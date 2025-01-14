@@ -1,0 +1,209 @@
+units:
+  k: 18
+  K: 22
+
+# Trackpoint requires the SDA (P02) and SCL (P03) to be unused.
+# Columns: 5, connected across halves. Pins: 21, 20, 19, 18, 15
+# Rows: 4x2. Pins (left, right): (4,5), (6,7), (8,9), (10,16)
+
+points:
+  zones:
+    pinkyfan:
+      anchor:
+        rotate: 42
+        shift: [110,-90]
+      columns:
+        far:
+          key:
+            splay: 0
+            origin: [0,-60]
+            column_net: P15
+            row_net: P4
+            mirror.row_net: P5
+        mid:
+          key:
+            spread: 0
+            splay: -21.5
+            origin: [0,-60]
+            column_net: P15
+            row_net: P6
+            mirror.row_net: P7
+        pinky:
+          key:
+            spread: 0
+            splay: -21.5
+            origin: [0,-60]
+            column_net: P15
+            row_net: P8
+            mirror.row_net: P9
+      rows:
+        home:
+          row_net:
+
+    main:
+      anchor:
+        ref: pinkyfan_pinky_home
+        shift: [1u, 0]
+        rotate: 0
+      columns:
+        ring:
+          key:
+            stagger: 0.0u
+            column_net: P18
+        middle:
+          key:
+            stagger: 0.5u
+            column_net: P19
+        index:
+          key:
+            stagger: -0.5u
+            column_net: P20
+        inner:
+          key:
+            stagger: -0.2u
+            column_net: P21
+      rows:
+        bottom:
+          row_net: P6
+          mirror.row_net: P7
+        home:
+          row_net: P8
+          mirror.row_net: P9
+        top:
+          row_net: P10
+          mirror.row_net: P16
+
+    ringouter:
+      anchor:
+        ref: main_ring_home
+        shift: [-1u,0.5u]
+      columns:
+        ring:
+          key.column_net: P15
+      rows:
+        midtop:
+          row_net: P10
+          mirror.row_net: P16
+
+    thumbfan:
+      anchor:
+        ref: main_inner_bottom
+        shift: [-1u, -1u]
+      columns:
+        out:
+          key.column_net: P19
+        home:
+          key.column_net: P20
+        in:
+          key.stagger: -0.2u
+          key.column_net: P21
+      rows:
+        thumb:
+          row_net: P4
+          mirror.row_net: P5
+
+  rotate: -28
+  mirror:
+    ref: main_inner_top
+    distance: 64
+
+outlines:
+  keycaps:
+    - what: rectangle
+      where: true
+      size: [18, 18]
+
+  keycaps_padded:
+    - what: rectangle
+      where: true
+      size: [22, 22]
+
+  fillout:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: main_inner_top
+          shift: [0.5K,0.25K]
+        - ref: ringouter_ring_midtop
+          shift: [-0.5K,-0.5K]
+        - ref: pinkyfan_pinky_home
+          shift: [-0.5K,0.5K]
+        - ref: pinkyfan_mid_home
+          shift: [0.5K,0.5K]
+        - ref: pinkyfan_mid_home
+          shift: [-0.5K,0.5K]
+        - ref: pinkyfan_far_home
+          shift: [0.5K,0.5K]
+        - ref: pinkyfan_far_home
+          shift: [0,0]
+        - ref: thumbfan_out_thumb
+          shift: [-0.5K,1.5K]
+        - ref: thumbfan_out_thumb
+          shift: [-0.5K,0]
+        - ref: thumbfan_in_thumb
+          shift: [0.5K,0]
+
+        - ref: mirror_thumbfan_in_thumb
+          shift: [0.5K,0]
+        - ref: mirror_thumbfan_out_thumb
+          shift: [-0.5K,0]
+        - ref: mirror_thumbfan_out_thumb
+          shift: [-0.5K,1.5K]
+        - ref: mirror_pinkyfan_far_home
+          shift: [0,0]
+        - ref: mirror_pinkyfan_far_home
+          shift: [0.5K,0.5K]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [-0.5K,0.5K]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [0.5K,0.5K]
+        - ref: mirror_pinkyfan_pinky_home
+          shift: [-0.5K,0.5K]
+        - ref: mirror_ringouter_ring_midtop
+          shift: [-0.5K,-0.5K]
+        - ref: mirror_main_inner_top
+          shift: [0.5K,0.25K]
+
+  overview:
+    - name: keycaps_padded
+    - operation: add
+      name: fillout
+    - operation: stack
+      name: keycaps
+
+  pcboutline:
+    - name: keycaps_padded
+    - operation: add
+      name: fillout
+
+pcbs:
+  laserraven:
+    outlines:
+      main:
+        outline: pcboutline
+    footprints:
+      mx_hotswaps:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [0, -5]
+      promicro:
+        what: promicro
+        params:
+          orientation: "down"
+        where:
+          ref: mirror_main_inner_home
+          shift: [1u,-0.2u]
+          rotate: 90

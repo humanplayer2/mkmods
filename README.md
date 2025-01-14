@@ -1,10 +1,6 @@
 # Mechanical Keyboard Mods
 
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
-
-GitSync pull test. Conflict.
-GitSync pull test. Discrepancy.
-
 ## Homemade Boards
 - Daily driver: [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/LaserProsthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/FrejasHitbox/README.md)

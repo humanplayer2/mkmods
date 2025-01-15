@@ -44,18 +44,11 @@ I have followed ![FlatFootFox's eminent guide to Ergogen](https://flatfootfox.co
 ## Components
 
 ### Board
-- Holykeebs Trackpoint module kit, incl. black opaque shield, custom low headers and Sea Prico controller (112 USD for 2, free shipping, taxes not included)
-- PCB ordered from XYZ, see notes below
+- ![Holykeebs Trackpoint module](https://docs.holykeebs.com/guides/trackpoint-module/) kit, incl. black opaque shield, custom low headers and ![Sea Picro controller](https://joshajohnson.com/sea-picro/)
+    - 112 USD for 2, free shipping, taxes not included.
+- PCB
 - 38 Kaihl hotswap sockets
 - 38 XYZ diodes
 
 ### Case
-- 1,5 mm black acrylic that fits XYZ
-
-https://e-plast.dk/shop/plastplader/ps/polystyren-plade-sort-mat-mat-1006mm-x-1406mm-x-1-5mm
-
-https://www.lemu.dk/da/catalog/products/pehd-(pehd)-plade-(sort)-2000x1000x15mm/3437002245
-
-https://www.wattoo.dk/pehd-pehd-plade-sort-2000x1000x1-5mm-3437002245
-
-https://e-plast.dk/shop/plastplader/pehd
+It's difficult to find 1,5 mm black acrylic for laser cutting. I've contacted some companies about PE-HD options, but maybe that's poisonous? ![1](https://e-plast.dk/shop/plastplader/ps/polystyren-plade-sort-mat-mat-1006mm-x-1406mm-x-1-5mm), ![2](https://www.lemu.dk/da/catalog/products/pehd-(pehd)-plade-(sort)-2000x1000x15mm/3437002245), ![3](https://www.wattoo.dk/pehd-pehd-plade-sort-2000x1000x1-5mm-3437002245)

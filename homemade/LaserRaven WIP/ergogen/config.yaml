@@ -92,11 +92,12 @@ points:
     thumbfan:
       anchor:
         ref: main_inner_bottom
-        shift: [-1u, -1u]
+        shift: [-1u, -0.8u]
       columns:
         out:
           key.column_net: P19
         home:
+          key.stagger: -0.2u
           key.column_net: P20
         in:
           key.stagger: -0.2u

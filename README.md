@@ -2,8 +2,6 @@
 
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
-GitSync test again. Phone edit. Phone conflict.
-
 ## Homemade Boards
 - Daily driver: [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/LaserProsthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/FrejasHitbox/README.md)

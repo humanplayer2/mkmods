@@ -1,5 +1,5 @@
 # Laser Raven
-*Laser Corvus Corax*  
+*Laser Corvus Corax. Designed with ![Ergogen](https://github.com/ergogen/ergogen)*
 
 **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
 
@@ -38,21 +38,17 @@ Two thumb keys are for the trackpoint: One for left click (and dragging), one mi
 
 I use six layers: Shift, Ctrl, Alt, Navigation, Numbers and Symbols. Four are on thumb keys, while the two least used are on pinkies (Alt and Numbers).
 
+## Ergogen & Kicad
+I have followed ![FlatFootFox's eminent guide to Ergogen](https://flatfootfox.com/ergogen-part1-units-points/). I use ![Ergogen](https://github.com/ergogen/ergogen) through the command line, on Fedora. Install by `sudo npm -g i ergogen`. From the board's `ergogen` directory, run `ergogen config.yaml`. From there, traces have to be drawn manually in Kicad.
+
 ## Components
 
 ### Board
-- Holykeebs Trackpoint module kit, incl. black opaque shield, custom low headers and Sea Prico controller (112 USD for 2, free shipping, taxes not included)
-- PCB ordered from XYZ, see notes below
+- ![Holykeebs Trackpoint module](https://docs.holykeebs.com/guides/trackpoint-module/) kit, incl. black opaque shield, custom low headers and ![Sea Picro controller](https://joshajohnson.com/sea-picro/)
+    - 112 USD for 2, free shipping, taxes not included.
+- PCB
 - 38 Kaihl hotswap sockets
 - 38 XYZ diodes
 
 ### Case
-- 1,5 mm black acrylic that fits XYZ 
-
-https://e-plast.dk/shop/plastplader/ps/polystyren-plade-sort-mat-mat-1006mm-x-1406mm-x-1-5mm
-
-https://www.lemu.dk/da/catalog/products/pehd-(pehd)-plade-(sort)-2000x1000x15mm/3437002245
-
-https://www.wattoo.dk/pehd-pehd-plade-sort-2000x1000x1-5mm-3437002245
-
-https://e-plast.dk/shop/plastplader/pehd
+It's difficult to find 1,5 mm black acrylic for laser cutting. I've contacted some companies about PE-HD options, but maybe that's poisonous? ![1](https://e-plast.dk/shop/plastplader/ps/polystyren-plade-sort-mat-mat-1006mm-x-1406mm-x-1-5mm), ![2](https://www.lemu.dk/da/catalog/products/pehd-(pehd)-plade-(sort)-2000x1000x15mm/3437002245), ![3](https://www.wattoo.dk/pehd-pehd-plade-sort-2000x1000x1-5mm-3437002245)

@@ -8,7 +8,7 @@
 - Ravens aren't the smallest of birds.
 - Ravens are smart tool users. I bet they love lasers. And trackpoints.
 
-![](images/kicad_pcb.png)
+![](images/kicad_3d_back.png)
 
 ## Trackpoint
 I really like ThinkPads (X301, you hold my heart). Not least for their trackpoints. I love trackpoints. For my day-to-day computing, I need no other pointing device.

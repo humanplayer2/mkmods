@@ -3,8 +3,8 @@ meta:
   version: 1.0.0
 
 units:
-  k: 18
-  K: 22
+  k: 19 # keycap size + 1 mm for keycaps outline
+  # K: 22
 
 # Trackpoint module requires unused pins P2 (SDA) and P3 (SCL).
 # Columns: 5, connected across halves. Pins: 21, 20, 19, 18, 15
@@ -21,25 +21,25 @@ points:
           key:
             splay: 0
             origin: [0,-60]
-            column_net: P15
-            row_net: P4
-            mirror.row_net: P5
+            column_net: P20
+            row_net: P10
+            mirror.row_net: P9
         mid:
           key:
             spread: 0
             splay: -21.5
             origin: [0,-60]
-            column_net: P15
-            row_net: P6
-            mirror.row_net: P7
+            column_net: P20
+            row_net: P16
+            mirror.row_net: P8
         pinky:
           key:
             spread: 0
             splay: -21.5
             origin: [0,-60]
-            column_net: P15
-            row_net: P8
-            mirror.row_net: P9
+            column_net: P20
+            row_net: P14
+            mirror.row_net: P7
       rows:
         home:
           row_net:
@@ -53,7 +53,7 @@ points:
         ring:
           key:
             stagger: 0.0u
-            column_net: P18
+            column_net: P21
         middle:
           key:
             stagger: 0.5u
@@ -61,21 +61,21 @@ points:
         index:
           key:
             stagger: -0.5u
-            column_net: P20
+            column_net: P1
         inner:
           key:
             stagger: -0.2u
-            column_net: P21
+            column_net: P0
       rows:
         bottom:
-          row_net: P6
-          mirror.row_net: P7
+          row_net: P16
+          mirror.row_net: P8
         home:
-          row_net: P8
-          mirror.row_net: P9
+          row_net: P14
+          mirror.row_net: P7
         top:
-          row_net: P10
-          mirror.row_net: P16
+          row_net: P15
+          mirror.row_net: P6
 
     ringouter:
       anchor:
@@ -83,11 +83,11 @@ points:
         shift: [-1u,0.5u]
       columns:
         ring:
-          key.column_net: P15
+          key.column_net: P20
       rows:
         midtop:
-          row_net: P10
-          mirror.row_net: P16
+          row_net: P15
+          mirror.row_net: P6
 
     thumbfan:
       anchor:
@@ -98,14 +98,14 @@ points:
           key.column_net: P19
         home:
           key.stagger: -0.2u
-          key.column_net: P20
+          key.column_net: P1
         in:
           key.stagger: -0.2u
-          key.column_net: P21
+          key.column_net: P0
       rows:
         thumb:
-          row_net: P4
-          mirror.row_net: P5
+          row_net: P10
+          mirror.row_net: P9
 
   rotate: -28
   mirror:
@@ -337,12 +337,17 @@ outlines:
         - ref: mirror_main_inner_top
           shift: [0,-0.5k]
 
-  pcb_outline:
+  pcb_outline: # Satans, I forgot the screw holes before routing. I've tried adding the manually in KiCad.
     - name: keycaps_outline_left
     - operation: add
       name: keycaps_outline_right
     - operation: add
       name: pcb_center
+
+  pcb_outline_screws:
+    - name: pcb_outline
+    - operation: stack
+      name: screws
 
   plates:
     - name: keycaps_outline_left
@@ -376,7 +381,7 @@ pcbs:
   laserraven:
     outlines:
       main:
-        outline: pcb_outline
+        outline: pcb_outline_screws
     footprints:
       mx_hotswaps:
         what: mx
@@ -387,14 +392,22 @@ pcbs:
           hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
-      diode:
+      diode_left:
         what: diode
-        where: true
+        where: /^(pinkyfan|main|ringouter|thumbfan)_.*/
         params:
           from: "{{colrow}}"
           to: "{{row_net}}"
         adjust:
-          shift: [0, -5]
+          shift: [3, -5]
+      diode_right:
+        what: diode
+        where: /^mirror_.*/
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [-3, -5]
       promicro:
         what: promicro
         params:

@@ -38,15 +38,20 @@ Two thumb keys are for the trackpoint: One for left click (and dragging), one mi
 
 I use six layers: Shift, Ctrl, Alt, Navigation, Numbers and Symbols. Four are on thumb keys, while the two least used are on pinkies (Alt and Numbers).
 
-## Ergogen & Kicad
+## Ergogen & KiCad
 I have followed ![FlatFootFox's eminent guide to Ergogen](https://flatfootfox.com/ergogen-part1-units-points/). I use ![Ergogen](https://github.com/ergogen/ergogen) through the command line, on Fedora. Install by `sudo npm -g i ergogen`. From the board's `ergogen` directory, run `ergogen config.yaml`. From there, traces have to be drawn manually in Kicad.
+
+I followed ![these steps](https://forum.kicad.info/t/how-to-add-fancy-graphics-to-your-pcb-tutorial/36138
+) to add an graphics silkscreen in KiCad.
+
+I forgot to include my Ergogen screw holes before routing. I imported the Ergogen-generated outline of them, positioned them manually referring to an untraced copy that included them, and added them to the Edge.Cuts layer.
 
 ## Components
 
 ### Board
+- PCB. I made a quick comparison of JLCPCB and PCBWay, and the former gave me a far lower rate. I ordered the minimum of 5 PCBs, FR-4, 1.6mm, LeadFree HASL. With a new customer coupon, the cheapest 10-14 days shipping and taxes, it landed on 36.83 Euro.
 - ![Holykeebs Trackpoint module](https://docs.holykeebs.com/guides/trackpoint-module/) kit, incl. black opaque shield, custom low headers and ![Sea Picro controller](https://joshajohnson.com/sea-picro/)
     - 112 USD for 2, free shipping, taxes not included.
-- PCB
 - 38 Kaihl hotswap sockets
 - 38 XYZ diodes
 

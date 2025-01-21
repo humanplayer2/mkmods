@@ -1,7 +1,6 @@
 # Mechanical Keyboard Mods
 
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
-phone conflict.
 
 ## Homemade Boards
 - Daily driver: [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/LaserProsthetic/README.md)

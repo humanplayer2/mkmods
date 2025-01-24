@@ -3,7 +3,7 @@
 ## Build 1: Unstepped CapsLock
 
 
-![0](images_unstepped/0.jpg)
+![#small](images_unstepped/0.jpg)
 ![0](images_unstepped/1.jpg)
 ![0](images_unstepped/2.jpg)
 ![0](images_unstepped/3.jpg)

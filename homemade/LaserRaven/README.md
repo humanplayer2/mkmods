@@ -8,6 +8,10 @@
 - Ravens aren't the smallest of birds.
 - Ravens are smart tool users. I bet they love lasers. And trackpoints.
 
+## TODO:
+- Add gerber files used for production.
+- Add note that outlines needed to be closed manually.
+
 ![](images/kicad_3d_back.png)
 
 ## Trackpoint

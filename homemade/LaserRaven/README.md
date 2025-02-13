@@ -24,7 +24,7 @@ Reaching straight up with my pinky is not something I enjoy. On my [Laser Prosth
 With the outer-most key on this board, I'm experimenting with how it'll feel to reach only outwards. The pinky fan has a radius the length of my pinky.
 
 ## Outer ring
-To reach the 32 alpha keys, I need two extra keys somewhere -- else.thank pinkies! 
+To reach the 32 alpha keys, I need two extra keys somewhere -- else.thank pinkies!
 
 I could add them on the far inside, and reach in with my left index. I'm not using those keys much on my Laser Prothetic.
 
@@ -50,7 +50,7 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 ## Competents
 
 ### PCB
- I made a quick comparison of JLCPCB and PCBWay, and the former gave me a far lower rate. I ordered the minimum of 5 PCBs, FR-4, 1.6mm, LeadFree HASL. 
+ I made a quick comparison of JLCPCB and PCBWay, and the former gave me a far lower rate. I ordered the minimum of 5 PCBs, FR-4, 1.6mm, LeadFree HASL.
  - `36.83 Euro`  with the cheapest 10-14 days shipping, taxes, and a new customer coupon.
 
 ### Trackpoint and controller

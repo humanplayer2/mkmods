@@ -61,6 +61,9 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 - 38 Kaihl hotswap sockets. `3.62 USD` for 40.
 - W1 1N4148 SOD-123 diodes, 38 pieces. `2.53 USD` for 100.
 
+### Plate(s)
+- I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.
+
 ### Case
 It's difficult to find 1,5 mm black acrylic for laser cutting. The companies I've reached out to can't get it.
 

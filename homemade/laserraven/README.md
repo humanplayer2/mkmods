@@ -1,4 +1,4 @@
-# Laser Raven
+# laserraven
 *Laser Corvus Corax. Designed with ![Ergogen](https://github.com/ergogen/ergogen)*
 
 **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**

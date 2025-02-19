@@ -16,8 +16,8 @@
 - Wire (must be conductive, e.g. xyz)
 - Acrylic paint (for insulation)
 - Cardboard (xyz, for plate)
-- m Hama beads 
+- m Hama beads
 - k screws (xyz, fit into beads)
 
 ## Rasmus Material Expenses 2025
-- Wire Glue™: three jars, incl. VAT and shipping to Denmark. 26.38 Euro. From udiow on eBay. 
+- Wire Glue™: three jars, incl. VAT and shipping to Denmark. 26.38 Euro. From seller udiow on eBay.

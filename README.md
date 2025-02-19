@@ -3,10 +3,11 @@
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
 ## Homemade Boards
-- Daily driver: [Laser Prosthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/LaserProsthetic/README.md)
-- [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/FrejasHitbox/README.md)
-- [Lite-Puter Footpanel: Light-controller rewired to run QMK](homemade/LitePuter/README.md)
-- [Scraps34: A split build on a sawn TKL plate](homemade/Scraps34/README.md)
+- Daily driver: [LaserRaven: A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.](homemade/laserprosthetic/README.md)
+- Prev. daily driver: [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)
+- [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/frejas/README.md)
+- [Lite-Puter Footpanel: Light-controller rewired to run QMK](homemade/liteputer/README.md)
+- [Scraps34: A split build on a sawn TKL plate](homemade/scraps34/README.md)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)

@@ -1,16 +1,20 @@
-# laserraven
-*Laser Corvus Corax. Designed with ![Ergogen](https://github.com/ergogen/ergogen)*
+# LaserRaven
+*Laser Corvus Corax. Designed with [Ergogen](https://github.com/ergogen/ergogen)*
 
-**A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
+> **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
 
-- Lasers are hot. I'm laser cutting the case.
+- [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.
+
+# Build Rationale and Notes
+
+- Lasers are hot. I'll laser cut the case.
 - Ravens are black, like ThinkPads, that have trackpoints.
-- Ravens aren't the smallest of birds.
-- Ravens are smart tool users. I bet they love lasers. And trackpoints.
+- Ravens are smart tool users. They should love lasers---and trackpoints.
 
 ## TODO:
 - Add gerber files used for production.
 - Add note that outlines needed to be closed manually.
+- Do the case.
 
 ![](images/kicad_3d_back.png)
 
@@ -58,12 +62,15 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
  - `36.83 Euro`  with the cheapest 10-14 days shipping, taxes, and a new customer coupon.
 
 ### Trackpoint and controller
-![Holykeebs Trackpoint module](https://docs.holykeebs.com/guides/trackpoint-module/) kit, incl. black opaque shield, custom low headers and ![Sea Picro controller](https://joshajohnson.com/sea-picro/)
+[Holykeebs Trackpoint module](https://docs.holykeebs.com/guides/trackpoint-module/) kit, incl. black opaque shield, custom low headers and ![Sea Picro controller](https://joshajohnson.com/sea-picro/)
     - `112 USD` for 2, free shipping, taxes not included.
 
 ### Soldered components
 - 38 Kaihl hotswap sockets. `3.62 USD` for 40.
 - W1 1N4148 SOD-123 diodes, 38 pieces. `2.53 USD` for 100.
+
+### Plate(s)
+- I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.
 
 ### Case
 It's difficult to find 1,5 mm black acrylic for laser cutting. The companies I've reached out to can't get it.

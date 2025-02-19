@@ -1,4 +1,5 @@
 # Frejas Hitbox
+> **A crafted gamepad for my toddler daughter**
 
 I hope to entertain my toddler daughter, Freja, with playing some basic platformers, and thought that it might help her have fun if she had her own board with just the keys she'd need. Specifically, these are the keys needed for *Paw Patrol: On a Roll!*, recommended by another father from the kindergarten.
 
@@ -74,3 +75,6 @@ We jointly colored the plate with pens that could have been fresher 😅
 She's played some, and had fun with it, but it's not something she particularly asks to do. She's improved a lot.
 
 I wonder if clicky switches would be better than linears for learning what it means to press two keys at the same time or twice in quick succession.
+
+## Firmware
+[My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains the firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/frejas/`.

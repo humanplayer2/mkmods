@@ -2,9 +2,9 @@
 
 A 5 pedal, 1 key, 1 toggle footpanel build with a friend on a Lite-Puter light control footpanel, for said friend.
 
-[Build](build)  
-[More photos](more-photos)  
-[QMK flashing](qmk-flashing)  
+[Build](build)
+[More photos](more-photos)
+[QMK flashing](qmk-flashing)
 
 <img src="photos/case_top1.jpg" width="512"/>
 
@@ -28,7 +28,7 @@ We hooked that matrix up to an older generation ProMicro, on which we flashed QM
 <img src="photos/pcb_back_solder.jpg" width="512"/>
 
 *PCB back*
- 
+
 ## More photos
 
 <img src="photos/switch.jpg" width="512"/>
@@ -50,13 +50,12 @@ We hooked that matrix up to an older generation ProMicro, on which we flashed QM
 *Case back. The 0/1 toggle is on the matrix.*
 
 ## QMK Flashing
+[My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains the firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/liteputer/`.
 
-QMK firmware is in `mkmods/QMK/keyboards/humanplayer2/liteputer`. To get in on the MCU, zero to hero:
+To get it onto the MCU, zero to hero:
 
-- `git clone https://github.com/humanplayer2/mkmods`
-- [setup QMK:](https://docs.qmk.fm/#/newbs_getting_started) `python3 -m pip install --user qmk`, then `qmk setup` and choose your `QMK_HOME`. Include submodules.
-- copy or symlink `QMK/keyboards/humanplayer2` to `QMK_HOME`:
- ```ln -s `pwd`/mkmods/QMK/keyboards/humanplayer2 $(qmk env QMK_HOME)'/keyboards'```
+- Clone `https://github.com/humanplayer2/qmk_firmware` to your home directory.
+- [setup QMK:](https://docs.qmk.fm/#/newbs_getting_started) `python3 -m pip install --user qmk`, then `qmk setup`. Include submodules.
 - compile: `qmk compile -kb humanplayer2/liteputer -km default`
 - flash:
   - `qmk flash -kb humanplayer2/liteputer -km default` (includes compilation)

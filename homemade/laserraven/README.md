@@ -68,6 +68,7 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 ### Soldered components
 - 38 Kaihl hotswap sockets. `3.62 USD` for 40.
 - W1 1N4148 SOD-123 diodes, 38 pieces. `2.53 USD` for 100.
+- 10x short profile header sockets (2.54mm, Ph3.5, female headers 12P), as I messed one up: `7.86 USD`.
 
 ### Plate(s)
 - I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.

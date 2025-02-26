@@ -3,7 +3,7 @@
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
 ## Homemade Boards
-- Daily driver: [LaserRaven: A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.](homemade/laserprosthetic/README.md)
+- Daily driver: [LaserRaven: A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.](homemade/laserraven/README.md)
 - Prev. daily driver: [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/frejas/README.md)
 - [Lite-Puter Footpanel: Light-controller rewired to run QMK](homemade/liteputer/README.md)
@@ -16,7 +16,7 @@ Well, perhaps less mods than just notes and photos of boards I've fiddled with :
 - [Hotswap mod using cheap rivets](mods/rivet_hotswap/README.md)
 
 ## Premade Boards
-- [Tokyo60 w. Terminal keycaps: Photos, notes on QMK/VIA](Tokyo60/README.md)
+- [Tokyo60 w. Terminal keycaps: Photos, notes on QMK/VIA](premade/Tokyo60/README.md)
 - [NCR80 w. retro keycap photos](premade/NCR80/README.md)
 - [Gabrielle 7007L Typewriter my MY switches](premade/Gabrielle_7007L/README.md)
 - [Cidoo ABM066: Black w. WoB keycaps](premade/Cidoo_ABM066/README.md)

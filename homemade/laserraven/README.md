@@ -5,6 +5,8 @@
 
 - [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.
 
+![](images/keycaps.jpg) 
+
 # Build Rationale and Notes
 
 - Lasers are hot. I'll laser cut the case.

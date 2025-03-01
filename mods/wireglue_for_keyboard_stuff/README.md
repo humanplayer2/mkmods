@@ -28,8 +28,8 @@ To test whether the wire glue is conductive enough for a keyboard matrix, I glue
 
 Three observations:
 - The wire glue works for establishing connection between switches and PCB. At least the maybe 200 keypresses I tried all registered without issue.
-- It's not a strong adhesive: a switch came off the second time I pulled a keycap off it, holding in the PCB and keycap (no plate).The glue explicitly states that one should use e.g. super glue to strengten bonds.
-- I reapplied. I should perhaps have applied less.
+- It's not a strong adhesive: a switch came off the second time I pulled the keycap off it, me grabbing the PCB and keycap (no plate).The glue explicitly states that one should use e.g. super glue to strengten bonds, so I don't hold it against it.
+- I applied glue twice to every join. I should perhaps have applied less.
 
 I wonder:
 - How difficult will it be to clean this stuff off if one wants to solder instead?

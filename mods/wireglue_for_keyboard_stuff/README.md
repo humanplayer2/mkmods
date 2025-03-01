@@ -3,12 +3,14 @@
 >
 > <img src="images/wireglue.jpg" style="width: 300px; margin-left: 20px">
 
-## 1. LED board: Inconclusive
-I wired up an RGB LED to a button cell battery and three switches so my daughter could control its color. I messed up the wiring and moved on, but where I didn't
-- the wire glue worked as conductive, but
-- there was clear resistance in the connection (maybe the glue), making the LED quite dim compared to when hooked up to the battery directly.
+## 1. LED board
+In my first attempt with the wire glue, I wired up an RGB LED to a button cell battery and three switches so my daughter could control the LED color. I messed up the wiring and moved on.
 
-It was my first attempt with wire glue. Three notes:
+Where the wiring was in order, I saw that:
+- The wire glue conducted.
+- There was resistance in the connection (maybe the glue): the LED was notably dimmer compared to directly touching it's legs to the battery.
+
+ Three notes on use:
 - I spilled some when I opened the jar: the glue separates and gets a very watery top.
 - It requires quite some stirring before first use, and later.
 - It applies like... egg yolk? Maybe a bit thinner.
@@ -21,7 +23,7 @@ It was my first attempt with wire glue. Three notes:
 >
 > <img src="images/wireglue_droplet.jpg" style="width: 300px; margin-left: 20px">
 
-## 2. Adhering Switches: Success
+## 2. Adhering Switches
 To test whether the wire glue is conductive enough for a keyboard matrix, I glued three switches to an old, desoldered Havit KB435L PCB I had lying around. I let it cure over night.
 
 Three observations:

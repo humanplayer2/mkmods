@@ -3,10 +3,11 @@ Wire Glue™ promises to electrically conductively bond low voltage electrical c
 
 - `Spoiler: Yes, some kind.`
 
-> Does this stuff work for keyboard stuff?
->
-> <img src="images/wireglue.jpg" style="width: 300px; margin-left: 20px">
-
+> <table cellpadding="0" cellspacing="0">
+>   <tr>
+>     <td>Does this stuff work for keyboard stuff?<br><img src="images/wireglue.jpg" style="width: 300px"><br>
+>   </tr>
+> </table>
 
 ## 1. LED board
 In my first attempt with the wire glue, I wired up an RGB LED to a button cell battery and three switches so my daughter could control the LED color. I messed up the wiring and moved on.

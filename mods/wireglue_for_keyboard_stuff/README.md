@@ -1,15 +1,13 @@
 # Wire Glue™: Will it Keyboard?
 Wire Glue™ promises to electrically conductively bond low voltage electrical connection. If wants to avoid soldering (for whateever reasons), does wire glue offer some kind of alternative?
 
-- `Spoiler: Yes, some kind.`
-
 > <table cellpadding="0" cellspacing="0">
 >   <tr>
->     <td>Does this stuff work for keyboard stuff?<br><img src="images/wireglue.jpg" style="width: 300px"><br>
+>     <td>Does this stuff work for keyboard stuff?<br><img src="images/wireglue.jpg" style="width: 300px"><br>Yes, for some things.<br>
 >   </tr>
 > </table>
 
-## 1. LED board
+## Test 1. LED board
 In my first attempt with the wire glue, I wired up an RGB LED to a button cell battery and three switches so my daughter could control the LED color. I messed up the wiring and moved on.
 
 Where the wiring was in order, I saw that:
@@ -28,7 +26,7 @@ Where the wiring was in order, I saw that:
 >   </tr>
 > </table>
 
-## 2. Adhering Switches
+## Test 2. Connecting Switches
 To test whether the wire glue is conductive enough for a keyboard matrix, I glued three switches to an old, desoldered Havit KB435L PCB I had lying around. I let it cure over night.
 
 Observations:

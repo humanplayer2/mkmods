@@ -34,11 +34,11 @@ Reaching straight up with my pinky is not something I enjoy. On my [Laser Prosth
 With the outer-most key on this board, I'm experimenting with how it'll feel to reach only outwards. The pinky fan has a radius the length of my pinky.
 
 ## Outer ring
-To reach the 32 alpha keys, I need two extra keys somewhere -- else.thank pinkies!
+With 6 index, 3 middle, 3 ring, and 3 pinky keys, I need two extra keys somewhere to reach 32.
 
-I could add them on the far inside, and reach in with my left index. I'm not using those keys much on my Laser Prothetic.
+I could add them on the far inside, and reach in with my left index. I have tried those on my Laser Prothetic.
 
-I've taken a page from the book of my 100 wpm collegue, who types without pinkies. They use the ring fingers for those pinky keys instead. Given the 1u staggered pinky fans, there's ample space for an outer ring finger key.
+Instead, I've taken a page from the book of my 100 US wpm collegue, who types without pinkies. They use the ring fingers for those pinky keys instead. Given the 1u staggered pinky fans, there's ample space for an outer ring finger key.
 
 ![](images/kle_qwerty.jpg)
 *KLE sketch of keys for DK Qwerty. Dash (-) marks home row keys.*

@@ -75,6 +75,7 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 ### Plate(s)
 - I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.
 - The switch holes are defined to be 13.5 mm, as this worked well for laser-cutting the plate for the [Laser Prosthetic](../LaserProsthetic/README.md).
+- Laser-cut lines should in the svg be set to pure red, stroke width 0.072 pt.
 
 ### Case
 It's difficult to find 1,5 mm black acrylic for laser cutting. The companies I've reached out to can't get it.

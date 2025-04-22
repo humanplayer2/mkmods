@@ -5,7 +5,7 @@
 
 - [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.
 
-![](images/keycaps.jpg) 
+![](images/keycaps.jpg)
 
 # Build Rationale and Notes
 
@@ -74,6 +74,7 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 
 ### Plate(s)
 - I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.
+- The switch holes are defined to be 13.5 mm, as this worked well for laser-cutting the plate for the [Laser Prosthetic](../LaserProsthetic/README.md).
 
 ### Case
 It's difficult to find 1,5 mm black acrylic for laser cutting. The companies I've reached out to can't get it.

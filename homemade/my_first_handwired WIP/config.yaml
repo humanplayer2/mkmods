@@ -1,0 +1,58 @@
+meta:
+  author: Rasmus K. Rendsvig (humanplayer2)
+  version: 1.0.0
+
+units:
+  angle: 0 # angle to rotate halfs by
+  cornersout: -0.5U
+  cornersup: 1U
+  middledistance: 10
+  # U is predefined as 19.05mm: the standard MX switch center distance
+
+points:
+  zones:
+    leftside:
+      rows:
+        bottom:
+        top:
+      columns:
+        outer:
+          rows.top.skip: true
+        middle:
+        inner:
+          rows.top.skip: true
+      anchor:
+        rotate: -angle
+
+    center:
+      anchor:
+        ref: leftside_outer_top
+        shift: [cornersout, cornersup]
+        rotate: angle
+      columns:
+        center:
+      rows:
+        top:
+
+  mirror:
+    ref: leftside_inner_top
+    distance: 3U
+  
+# Outline drawings
+outlines:
+  switches:
+    - what: rectangle
+      where: true
+      size: [13.5, 13.5]
+
+  keycaps:
+    - what: rectangle
+      where: true
+      size: [18, 18]
+
+  overview:
+    - name: switches
+    - operation: stack
+      name: keycaps
+
+

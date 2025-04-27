@@ -1,0 +1,53 @@
+meta:
+  author: Rasmus K. Rendsvig (humanplayer2)
+  version: 1.0.0
+
+units:
+  k: 19 # keycap size + 1 mm for keycaps outline
+  # K: 22
+
+# Trackpoint module requires unused pins P2 (SDA) and P3 (SCL).
+# Columns: 5, connected across halves. Pins: 21, 20, 19, 18, 15
+# Rows: 4x2. Pins (left, right): (4,5), (6,7), (8,9), (10,16)
+
+points:
+  zones:
+    main:
+      columns:
+        inner:
+      rows:
+        top:
+
+outlines:
+  switches:
+    - what: rectangle
+      where: true
+      size: [14, 14]
+
+  keycaps:
+    - what: rectangle
+      where: true
+      size: [18, 18]
+
+  keycaps_outline:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: main_inner_top
+          shift: [0.5k,-0.5k]
+        - ref: main_inner_top
+          shift: [0.5k,0.5k]
+        - ref: main_inner_top
+          shift: [-0.5k,0.5k]
+        - ref: main_inner_top
+          shift: [-0.5k,-0.5k]
+  
+  plate:
+    - name: keycaps_outline
+    - operation: stack
+      name: switches
+
+cases:
+  plate:
+    - name: plate
+      extrude: 1.5

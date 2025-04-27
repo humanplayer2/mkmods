@@ -1,0 +1,406 @@
+meta:
+  author: Rasmus K. Rendsvig (humanplayer2)
+  version: 1.0.0
+
+units:
+  k: 19 # keycap size + 1 mm for keycaps outline
+  # K: 22
+
+# Trackpoint module requires unused pins P2 (SDA) and P3 (SCL).
+# Columns: 5, connected across halves. Pins: 21, 20, 19, 18, 15
+# Rows: 4x2. Pins (left, right): (4,5), (6,7), (8,9), (10,16)
+
+points:
+  zones:
+    pinkyfan:
+      anchor:
+        shift: [110,-90]
+      columns:
+        far:
+          key:
+            column_net: P20
+            row_net: P10
+            mirror.row_net: P9
+        mid:
+          key:
+            shift: [0.5u,-0.75u]
+            column_net: P20
+            row_net: P16
+            mirror.row_net: P8
+        pinky:
+          key:
+            shift: [-1u,0.25u]
+            column_net: P20
+            row_net: P14
+            mirror.row_net: P7
+      rows:
+        home:
+          row_net:
+
+    main:
+      anchor:
+        ref: pinkyfan_pinky_home
+        shift: [1u, 0]
+        rotate: 0
+      columns:
+        ring:
+          key:
+            stagger: 0.0u
+            column_net: P21
+        middle:
+          key:
+            stagger: 0.5u
+            column_net: P19
+        index:
+          key:
+            stagger: -0.5u
+            column_net: P1
+        inner:
+          key:
+            stagger: -0.2u
+            column_net: P0
+      rows:
+        bottom:
+          row_net: P16
+          mirror.row_net: P8
+        home:
+          row_net: P14
+          mirror.row_net: P7
+        top:
+          row_net: P15
+          mirror.row_net: P6
+
+    ringouter:
+      anchor:
+        ref: main_ring_home
+        shift: [-1u,0.5u]
+      columns:
+        ring:
+          key.column_net: P20
+      rows:
+        midtop:
+          row_net: P15
+          mirror.row_net: P6
+
+    thumbfan:
+      anchor:
+        ref: main_inner_bottom
+        shift: [-1u, -0.8u]
+      columns:
+        out:
+          key.column_net: P19
+        home:
+          key.stagger: -0.2u
+          key.column_net: P1
+        in:
+          key.stagger: -0.2u
+          key.column_net: P0
+      rows:
+        thumb:
+          row_net: P10
+          mirror.row_net: P9
+
+  rotate: -28
+  mirror:
+    ref: main_inner_top
+    distance: 64
+
+outlines:
+  switches:
+    - what: rectangle
+      where: true
+      size: [14, 14]
+
+  keycaps:
+    - what: rectangle
+      where: true
+      size: [18, 18]
+
+  keycaps_outline_left:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: main_inner_top
+          shift: [0.5k,-0.15k]
+        - ref: main_inner_top
+          shift: [0.5k,0.5k]
+        - ref: main_inner_top
+          shift: [-0.5k,0.5k]
+        - ref:  main_index_top
+          shift: [0.5k,0.5k]
+        - ref:  main_index_top
+          shift: [-0.5k,0.5k]
+        - ref:  main_middle_top
+          shift: [0.5k,0.5k]
+        - ref:  main_middle_top
+          shift: [-0.5k,0.5k]
+        - ref:  main_ring_top
+          shift: [0.5k,0.5k]
+        - ref:  main_ring_top
+          shift: [-0.5k,0.5k]
+        - ref: ringouter_ring_midtop
+          shift: [0.5k,0.5k]
+        - ref: ringouter_ring_midtop
+          shift: [-0.5k,0.5k]
+        - ref: ringouter_ring_midtop
+          shift: [-0.5k,-0.5k]
+        - ref: ringouter_ring_midtop
+          shift: [-0.075k,-0.5k]
+        - ref: pinkyfan_pinky_home
+          shift: [0.2k,0.5k]
+        - ref: pinkyfan_pinky_home
+          shift: [-0.5k,0.5k]
+        - ref: pinkyfan_far_home
+          shift: [0.5k,0.5k]
+        - ref: pinkyfan_far_home
+          shift: [-0.5k,0.5k]
+        - ref: pinkyfan_far_home
+          shift: [0.5k,0.5k]
+        - ref: pinkyfan_far_home
+          shift: [-0.5k,0.5k]
+        - ref: pinkyfan_far_home
+          shift: [-0.5k,-0.5k]
+        - ref: pinkyfan_far_home
+          shift: [0.5k,-0.5k]
+        - ref: pinkyfan_mid_home
+          shift: [-0.5k,0.5k]#
+        - ref: pinkyfan_mid_home
+          shift: [-0.5k,-0.5k]
+        - ref: pinkyfan_mid_home
+          shift: [0.5k,-0.5k]
+        - ref: pinkyfan_mid_home
+          shift: [0.5k,0.5k]
+        - ref: main_ring_bottom
+          shift: [0.5k,-0.5k]
+        - ref: main_ring_bottom
+          shift: [0.5k,0]
+        - ref: main_index_bottom
+          shift: [-0.5k,0]
+        - ref: thumbfan_out_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: thumbfan_out_thumb
+          shift: [0.5k,-0.5k]
+        - ref: thumbfan_home_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: thumbfan_home_thumb
+          shift: [0.5k,-0.5k]
+        - ref: thumbfan_in_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: thumbfan_in_thumb
+          shift: [0.5k,-0.5k]
+        - ref: thumbfan_in_thumb
+          shift: [0.5k,0.5k]
+        - ref: thumbfan_in_thumb
+          shift: [-0.5k,0.5k]
+        - ref: thumbfan_in_thumb
+          shift: [-0.5k,0.5k]
+
+  keycaps_outline_right:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: mirror_thumbfan_in_thumb
+          shift: [-0.5k,0.5k]
+        - ref: mirror_thumbfan_in_thumb
+          shift: [-0.5k,0.5k]
+        - ref: mirror_thumbfan_in_thumb
+          shift: [0.5k,0.5k]
+        - ref: mirror_thumbfan_in_thumb
+          shift: [0.5k,-0.5k]
+        - ref: mirror_thumbfan_in_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [0.5k,-0.5k]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_thumbfan_out_thumb
+          shift: [0.5k,-0.5k]
+        - ref: mirror_thumbfan_out_thumb
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_main_index_bottom
+          shift: [-0.5k,0]
+        - ref: mirror_main_ring_bottom
+          shift: [0.5k,0]
+        - ref: mirror_main_ring_bottom
+          shift: [0.5k,-0.5k]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [0.5k,0.5k]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [0.5k,-0.5k]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_pinkyfan_mid_home
+          shift: [-0.5k,0.5k]#
+        - ref: mirror_pinkyfan_far_home
+          shift: [0.5k,-0.5k]
+        - ref: mirror_pinkyfan_far_home
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_pinkyfan_far_home
+          shift: [-0.5k,0.5k]
+#        - ref: mirror_pinkyfan_far_home
+#          shift: [0.5k,0.5k]
+        - ref: mirror_pinkyfan_far_home
+          shift: [-0.5k,0.5k]
+        - ref: mirror_pinkyfan_far_home
+          shift: [0.5k,0.5k]
+        - ref: mirror_pinkyfan_pinky_home
+          shift: [-0.5k,0.5k]
+        - ref: mirror_pinkyfan_pinky_home
+          shift: [0.2k,0.5k]
+        - ref: mirror_ringouter_ring_midtop
+          shift: [-0.075k,-0.5k]
+        - ref: mirror_ringouter_ring_midtop
+          shift: [-0.5k,-0.5k]
+        - ref: mirror_ringouter_ring_midtop
+          shift: [-0.5k,0.5k]
+        - ref: mirror_ringouter_ring_midtop
+          shift: [0.5k,0.5k]
+        - ref:  mirror_main_ring_top
+          shift: [-0.5k,0.5k]
+        - ref:  mirror_main_ring_top
+          shift: [0.5k,0.5k]
+        - ref:  mirror_main_middle_top
+          shift: [-0.5k,0.5k]
+        - ref:  mirror_main_middle_top
+          shift: [0.5k,0.5k]
+        - ref:  mirror_main_index_top
+          shift: [-0.5k,0.5k]
+        - ref:  mirror_main_index_top
+          shift: [0.5k,0.5k]
+        - ref: mirror_main_inner_top
+          shift: [-0.5k,0.5k]
+        - ref: mirror_main_inner_top
+          shift: [0.5k,0.5k]
+        - ref: mirror_main_inner_top
+          shift: [0.5k,-0.15k]
+
+  screws:
+    - what: circle
+      radius: 1
+      where:
+        ref: pinkyfan_far_home
+        shift: [0.6k,0]
+    - what: circle
+      radius: 1
+      where:
+        ref: mirror_pinkyfan_far_home
+        shift: [0.6k,0]
+    - what: circle
+      radius: 1
+      where:
+        ref: ringouter_ring_midtop
+        shift: [0.5k,0.25k]
+    - what: circle
+      radius: 1
+      where:
+        ref: mirror_ringouter_ring_midtop
+        shift: [0.5k,0.25k]
+    - what: circle
+      radius: 1
+      where:
+        ref: main_index_top
+        shift: [0.5k,0]
+    - what: circle
+      radius: 1
+      where:
+        ref: mirror_main_index_top
+        shift: [0.5k,0]
+    - what: circle
+      radius: 1
+      where:
+        ref: thumbfan_home_thumb
+        shift: [0.5k,-0.25k]
+    - what: circle
+      radius: 1
+      where:
+        ref: mirror_thumbfan_home_thumb
+        shift: [0.5k,-0.25k]
+
+  pcb_center:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: main_inner_top
+          shift: [0,-0.5k]
+        - ref: thumbfan_home_thumb
+          shift: [0,0.1k]
+
+        - ref: mirror_thumbfan_home_thumb
+          shift: [0,0.1k]
+        - ref: mirror_main_inner_top
+          shift: [0,-0.5k]
+
+  pcb_outline: # Satans, I forgot the screw holes before routing. I've tried adding the manually in KiCad.
+    - name: keycaps_outline_left
+    - operation: add
+      name: keycaps_outline_right
+    - operation: add
+      name: pcb_center
+
+  pcb_outline_screws:
+    - name: pcb_outline
+    - operation: stack
+      name: screws
+
+  plates:
+    - name: keycaps_outline_left
+    - operation: stack
+      name: keycaps_outline_right
+    - operation: stack
+      name: switches
+#    - operation: stack
+#      name: screws
+
+  overview:
+    - name: plates
+    - operation: stack
+      name: keycaps
+    - operation: stack
+      name: pcb_outline
+    - operation: stack
+      name: screws
+
+cases:
+  plate:
+    - name: plates
+      extrude: 1.5
+
+pcbs:
+  laserraven:
+    outlines:
+      main:
+        outline: pcb_outline_screws
+    footprints:
+      mx_hotswaps:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: false
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+      diode_left:
+        what: diode
+        where: /^(pinkyfan|main|ringouter|thumbfan)_.*/
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [3, -5]
+      diode_right:
+        what: diode
+        where: /^mirror_.*/
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [-3, -5]
+      promicro:
+        what: promicro
+        params:
+          orientation: "down"
+        where:
+          ref: mirror_main_inner_home
+          shift: [1u,-0.2u]
+          rotate: 90

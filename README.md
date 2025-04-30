@@ -3,6 +3,8 @@
 Well, perhaps less mods than just notes and photos of boards I've fiddled with :D
 
 ## Homemade Boards
+![](homemade/laserraven/images/rev1_keycaps.jpg)
+
 - Daily driver: [LaserRaven: A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.](homemade/laserraven/README.md)
 - Prev. daily driver: [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)
 - [Frejas Hitbox: A gamepad with a case made of HAMA beads](homemade/frejas/README.md)

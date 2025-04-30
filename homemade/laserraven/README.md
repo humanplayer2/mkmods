@@ -5,20 +5,25 @@
 
 - [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.
 
-![](images/keycaps.jpg)
+*Revision 1 (wip). Pinky fans moved inwards, no splay*
+![](images/rev1_keycaps.jpg)
+
+*Version 1: Far, splayed pinky fans*
+![](images/v1_keycaps.jpg)
+
+*Next steps:*
+- V2: Ergogen+KiCad a PCB, design case.
+- Document change from V1 to Rev. 1.
+- V1: Add note that outlines needed to be closed manually in KiCad.
 
 # Build Rationale and Notes
 
-- Lasers are hot. I'll laser cut the case.
+- Lasers are hot. I thought I'd laser cut the case. Now I have a 3D printer...
 - Ravens are black, like ThinkPads, that have trackpoints.
 - Ravens are smart tool users. They should love lasers---and trackpoints.
 
-## TODO:
-- Add gerber files used for production.
-- Add note that outlines needed to be closed manually.
-- Do the case.
-
-![](images/kicad_3d_back.png)
+![](images/rev1_pcb_hack.jpg)
+![](images/v1_kicad_3d_back.png)
 
 ## Trackpoint
 I really like ThinkPads (X301, you hold my heart). Not least for their trackpoints. I love trackpoints. For my day-to-day computing, I need no other pointing device.
@@ -40,7 +45,7 @@ I could add them on the far inside, and reach in with my left index. I have trie
 
 Instead, I've taken a page from the book of my 100 US wpm collegue, who types without pinkies. They use the ring fingers for those pinky keys instead. Given the 1u staggered pinky fans, there's ample space for an outer ring finger key.
 
-![](images/kle_qwerty.jpg)
+![](images/v1_kle_qwerty.jpg)
 *KLE sketch of keys for DK Qwerty. Dash (-) marks home row keys.*
 
 ## Thumb keys, mouse buttons and layers

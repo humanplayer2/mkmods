@@ -77,14 +77,5 @@ I forgot to include my Ergogen screw holes before routing. I imported the Ergoge
 - W1 1N4148 SOD-123 diodes, 38 pieces. `2.53 USD` for 100.
 - 10x short profile header sockets (2.54mm, Ph3.5, female headers 12P), as I messed one up: `7.86 USD`.
 
-### Plate(s)
-- I should maybe have ordered 1.5 mm fr plates from JLCPCB when I ordered the PCBs.
-- The switch holes are defined to be 13.5 mm, as this worked well for laser-cutting the plate for the [Laser Prosthetic](../LaserProsthetic/README.md).
-- Laser-cut lines should in the svg be set to pure red, stroke width 0.072 pt.
-
-### Case
-It's difficult to find 1,5 mm black acrylic for laser cutting. The companies I've reached out to can't get it.
-
-I've received a sample of nice, black 1.5mm PE-HD, but one company said that it's no good for laser cutting, as it bubbles up. I'll try. It's big enough for a two-piece plate.
-
-I think I'll cut, paste and paint the clear acrylic I already have.
+### Case and Plate
+- I had planned to laser-cut a case, but now I bought a 3D printer... TODO.

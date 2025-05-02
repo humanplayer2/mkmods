@@ -1,7 +1,13 @@
 # Mechanical Keyboard Mods
  
-Notes and photos of some of the boards and techniques I've fiddled with.
- 
+Notes and photos of some of the boards and techniques I've fiddled with.  
+> [Homemade Boards](#homemade-boards)  
+> [Building Techniques](#building-techniques)  
+> [Mods](#mods)  
+> [Misc](#misc)  
+> [Premade Boards](#premade-boards)  
+> [Reviews](#reviews)  
+
 ## Homemade Boards
 
 - [Raven: A 32+6 designed with nordic languages in mind.](homemade/raven/README.md)  
@@ -23,7 +29,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 ## Building Techniques
 - [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
 - [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
-- [A plate made of HAMA beads](techniques/hama_plate/README.md)
+- [A plate made of Hama beads](techniques/hama_plate/README.md)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)

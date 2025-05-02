@@ -46,7 +46,7 @@ While she played with Legos, I did the QMK setup.
 
 <img src="photos/wired-freja.jpg" width="512" style="display: block; margin: 0 auto"/>
 
-Later, we bought some HAMA beads for home, as it's an activity she loves in kindergarten. We played/designed with those, and I learned how to iron them.
+Later, we bought some Hama beads for home, as it's an activity she loves in kindergarten. We played/designed with those, and I learned how to iron them.
 
 She also got to play on the cardboard case.
 

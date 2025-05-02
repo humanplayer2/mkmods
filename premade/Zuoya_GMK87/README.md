@@ -1,84 +1,39 @@
-
 # Zuoya GMK87
 
-## TODO: Deserves notes on
-- Downloading from Zuoya website.
-- Firmware update.
-- GIF upload tool.
-- JSON for VIA (WIP).
+- They are easy to make sound good.
+- I wish I didn't dislike and somewhat distrust Zuoya.
+- I dislike Zuoya because they do not open-source their firmware, despite relying on QMK, thus violating license.
+- I wish the boards proper QMK, wired only, no screen and available in ISO.
+
+*Camel with retro keycaps* | *Black with Apollo clones*
+--------- | ---------
+<img src="images/1_camel.jpg" width="400"/> | <img src="images/3.jpg" width="400"/>
+
+## Firmware
+Firmware updater, VIA json, and GIF tool (also used to set the time) can be downloaded from [zuoya.top](zuoya.top). I use the Firefox-offered translation to navigate. It's then under `Driver and Firmware`, all in one file named `ZUOYA-GMK87-json文件.rar`
+
+I've added the two json files to this directory. I've only used the wired one.
+
+The GIF upload tool also sets the time. It can take quite a while for a GIF to be loaded to the board. It also messed up for me, but overriding the borked GIF worked.
+
+## VIA
+To use VIA, I've had to first do the firmware update.
+
+Then visit [usevia.app](usevia.app) in a Chrome-based browser. Do:
+- in `Settings`, check `Show Design Tab` and `Use V2 Definitions`,
+- in `Design Tab`, load JSON.
+- remap
 
 ## Issues
-- Function keys F1--F12 sends weird commands.</br>
+- Function keys F1--F12 sends weird commands:</br>
 **Solution:** While wired, switch from Win to Mac mode and back.
-
 - VIA on Linux gives error _Received invalid protocol version from device_.</br>
  **Solution:** [Per this comment](https://github.com/the-via/releases/issues/257), I accessed `chrome://device-log/` and saw `Failed to open '/dev/hidraw1': FILE_ERROR_ACCESS_DENIED`. Running `sudo chown $USER:$USER /dev/hidraw1` solved problem.
 
-## WIP: VIA
-To use VIA, visit [usevia.app](usevia.app). There, do:
-- in `Settings`, check `Show Design Tab` and `Use V2 Definitions`,
-- in `Design Tab`, load JSON (TODO: Add JSONs)
-- Received invalid protocol version from device: Tokyo60 solution
-- F1--F12 sends weird commands: while wired, switch from Win to Mac mode and back.
+## Insides
 
-https://mkb.gg/pages/download-center (what was this again?)
+<img src="images/0.jpg" width="512"/>
 
-## Camel w. Classics
-Now, isn't this just a nice old school looking modern board?
+<img src="images/1.jpg" width="512"/> 
 
-![0](images_camel_retro/0.jpg)
-
-![0](images_camel_retro/1.jpg)
-
-![0](images_camel_retro/2.jpg)
-
-![0](images_camel_retro/3.jpg)
-
-![0](images_camel_retro/4.jpg)
-
-![0](images_camel_retro/5.jpg)
-
-![0](images_camel_retro/6.jpg)
-
-![0](images_camel_retro/7.jpg)
-
-![0](images_camel_retro/8.jpg)
-
-## Black w. Apollo clones
-- Keycaps: Apollo clones from KBDiy on AliExpress.
-
-TODO: include remaining photos
-
-![0](images_black_apollo/0.jpg)
-
-![0](images_black_apollo/1.jpg)
-
-![0](images_black_apollo/2.jpg)
-
-![0](images_black_apollo/3.jpg)
-
-![0](images_black_apollo/4.jpg)
-
-![0](images_black_apollo/5.jpg)
-
-![0](images_black_apollo/6.jpg)
-
-![0](images_black_apollo/7.jpg)
-
-![0](images_black_apollo/8.jpg)
-
-![0](images_black_apollo/9.jpg)
-
-![0](images_black_apollo/10.jpg)
-
-![0](images_black_apollo/11.jpg)
-
-![0](images_black_apollo/12.jpg)
-
-![0](images_black_apollo/13.jpg)
-
-![0](images_black_apollo/14.jpg)
-
-![0](images_black_apollo/15.jpg)
-
-![0](images_black_apollo/16.jpg)
+<img src="images/2.jpg" width="512"/>

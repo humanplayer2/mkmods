@@ -3,7 +3,7 @@
 > **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
 
 - Designed with [Ergogen](https://github.com/ergogen/ergogen)
-- [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.
+- [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/raven/`.
 
 *Revision 1 (wip). Pinky fans moved inwards, no splay*
 ![](images/rev1_keycaps.jpg)

@@ -10,7 +10,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)  
     Precursor to Raven, laser-cut from acrylic and MDF.  
     <img src="homemade/laserprosthetic/photos/top_crop.jpg" width="300"/> <img src="homemade/laserprosthetic/photos/layers_crop.jpg" width="300"/>
-- [Frejas Hitbox: A gamepad made of HAMA beads and cardboard](homemade/frejas/README.md)  
+- [Frejas Hitbox: A gamepad made of Hama beads and cardboard](homemade/frejas/README.md)  
     Made for and with my toddler.  
     <img src="homemade/frejas/photos/bead_case_top_crop.jpg" width="300"/> <img src="homemade/frejas/photos/bead_case_bottom_crop.jpg" width="300"/>
 - [Lite-Puter Footpanel: Light-controller rewired to run QMK](homemade/liteputer/README.md)  
@@ -21,7 +21,8 @@ Notes and photos of some of the boards and techniques I've fiddled with.
     <img src="homemade/scraps34/images/done_top1_crop.jpg" width="300"/> <img src="homemade/scraps34/images/plate.jpg" width="300"/> 
 
 ## Building Techniques
-- [Insulating handwired builds easily with acrylic paint](mods/acrylic_paint_as_insulator/README.md)
+- [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
+- [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
 - [A plate made of HAMA beads](techniques/hama_plate/README.md)
 
 ## Mods

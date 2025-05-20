@@ -1,11 +1,12 @@
-# Raven
+# Raven38
 
-> **A 32+6 trackpoint columnar unibody split designed with nordic languages in mind.**
+> **A 32+6 trackpoint columnar aggressive stagger unibody split
+with horizontal little finger cluster and fourth leech finger key designed with nordic languages in mind.**
 
 - Designed with [Ergogen](https://github.com/ergogen/ergogen)
 - [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/raven/`.
 
-*Revision 1 (wip). Pinky fans moved inwards, no splay*
+*Revision 1 (wip). Pinkie fans moved inwards, no splay*
 ![](images/rev1_keycaps.jpg)
 
 *Version 1: Far, splayed pinky fans*
@@ -18,9 +19,9 @@
 
 # Build Rationale and Notes
 
-- Lasers are hot. I thought I'd laser cut the case. Now I have a 3D printer...
 - Ravens are black, like ThinkPads, that have trackpoints.
 - Ravens are smart tool users. They should love lasers---and trackpoints.
+- Lasers are hot. I thought I'd laser cut the case. Now I have a 3D printer...
 
 ![](images/rev1_pcb_hack.jpg)
 ![](images/v1_kicad_3d_back.png)
@@ -31,7 +32,7 @@ I really like ThinkPads (X301, you hold my heart). Not least for their trackpoin
 ## 32 alpha keys
 As a Dane writing frequent Danish and English, on my main layer, I want a 29 letter alphabet (ABC...WXYZ+ÆØÅ). I also want dot and comma. That's 31 keys. For symmetry, that makes 32 keys. Tab, you're in.
 
-## Pinky fans
+## Little finger fans / horizontal pinky clusters
 I like a somewhat aggresive pinky stagger of 1u. I don't find it nice to reach further down than that, so I have no pinky keys under the home row.
 
 Reaching straight up with my pinky is not something I enjoy. On my [Laser Prosthetic](../LaserProsthetic/README.md), I have pinky clusters where I reach up and out a bit. That's fine, but requires a bit of a hand lift.

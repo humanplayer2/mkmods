@@ -10,9 +10,9 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 
 ## Homemade Boards
 
-- [Raven: A 32+6 designed with nordic languages in mind.](homemade/raven/README.md)  
+- [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
     My daily board --- left: `v1, rev.1`; right: `v1`  
-    <img src="homemade/raven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/raven/images/v1_keycaps.jpg" width="300"/>
+    <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>
 - [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)  
     Precursor to Raven, laser-cut from acrylic and MDF.  
     <img src="homemade/laserprosthetic/photos/top_crop.jpg" width="300"/> <img src="homemade/laserprosthetic/photos/layers_crop.jpg" width="300"/>

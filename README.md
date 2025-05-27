@@ -1,12 +1,8 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
-> [Homemade Boards](#homemade-boards)  
-> [Building Techniques](#building-techniques)  
-> [Mods](#mods)  
-> [Misc](#misc)  
-> [Premade Boards](#premade-boards)  
-> [Reviews](#reviews)  
+>  [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
+> [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
 

@@ -22,7 +22,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
     <img src="homemade/scraps34/images/done_top1_crop.jpg" width="300"/> <img src="homemade/scraps34/images/plate.jpg" width="300"/> 
 
 ## Building Techniques
-- [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
+- [WireGlue tests for solder-free handwiring](techniques/wireglue/README.md)
 - [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
 - [A plate made of Hama beads](techniques/hama_plate/README.md)
 

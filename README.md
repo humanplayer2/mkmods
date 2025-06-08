@@ -5,7 +5,6 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
-
 - [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
     My daily board: revision 1 and version 1  
     <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>

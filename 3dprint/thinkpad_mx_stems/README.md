@@ -35,4 +35,6 @@ So I popped off a keycap to see if it'd make any sense to attempt to print an MX
 - If I was still using my TEX boards, would I prefer to undergo conversion for the remaining keys over cutting Cherry keys to fit? Yes.
 
 ## Printing
-Printed with a 0.4mm nozzle on an Ender 3 S1 Plus, flat, standard quality Cura profile, but layer height 0.16mm.
+Printed with a 0.4mm nozzle on an Ender 3 S1 Plus, flat, standard quality Cura profile, but layer height 0.16mm. I printed some tests, then 40 in one go over night.
+
+This directory hold the STL file that I've printed from, and a STEP file I also exported from Onshape (though I've never opened one, as I haven't gotten further than using Onshape).

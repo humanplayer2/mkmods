@@ -1,7 +1,7 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
->  [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
+>  [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
@@ -21,6 +21,10 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [Scraps34: A split build on a sawn TKL plate](homemade/scraps34/README.md)  
     When you've definitively destroyed the main chip on the PCB.  
     <img src="homemade/scraps34/images/done_top1_crop.jpg" width="300"/> <img src="homemade/scraps34/images/plate.jpg" width="300"/> 
+
+## 3D Prints
+- [1x1 MX plate test print](3dprint/1x1_mx_plate/README.md)
+- [Silakka54 thin one-piece screwless case](3dprint/silakka54_onepiece_case/README.md)
 
 ## Building Techniques
 - [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
@@ -42,5 +46,5 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [WIP: TEX Shura w. modified Cherry profile keycaps](premade/TEX_Shura/README.md)
 
 ## Reviews
-- [AKKO 3068B (DK keycaps, sponsored](premade/AKKO_3068B/README.md)
+- [AKKO 3068B (DK keycaps, sponsored)](premade/AKKO_3068B/README.md)
 - [MUCAI MK61 (10$ complete hotswap 60% board)](premade/MUCAI_MK61/README.md)

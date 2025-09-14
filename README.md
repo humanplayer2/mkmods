@@ -1,10 +1,11 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
->  [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
+>  [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
+
 - [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
     My daily board: revision 1 and version 1  
     <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>
@@ -21,8 +22,11 @@ Notes and photos of some of the boards and techniques I've fiddled with.
     When you've definitively destroyed the main chip on the PCB.  
     <img src="homemade/scraps34/images/done_top1_crop.jpg" width="300"/> <img src="homemade/scraps34/images/plate.jpg" width="300"/> 
 
+## 3D Prints
+- [ThinkPad keycap MX stems](3dprint/thinkpad_mx_stems/README.md)
+
 ## Building Techniques
-- [WireGlue tests for solder-free handwiring](techniques/wireglue/README.md)
+- [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
 - [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
 - [A plate made of Hama beads](techniques/hama_plate/README.md)
 
@@ -41,5 +45,5 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [WIP: TEX Shura w. modified Cherry profile keycaps](premade/TEX_Shura/README.md)
 
 ## Reviews
-- [AKKO 3068B (DK keycaps, sponsored](premade/AKKO_3068B/README.md)
+- [AKKO 3068B (DK keycaps, sponsored)](premade/AKKO_3068B/README.md)
 - [MUCAI MK61 (10$ complete hotswap 60% board)](premade/MUCAI_MK61/README.md)

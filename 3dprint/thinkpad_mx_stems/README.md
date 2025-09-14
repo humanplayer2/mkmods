@@ -7,7 +7,7 @@
 After moving my painstakingly home-printed CLP keycaps to my new main board to be kept at work, 
 I wanted something else than Cherry profile for my home board.
 
-Due to enthusiasm for classic ThinkPads and TrackPoints on keyboards, I had a classic ThinkPad keyboard to spare.
+Due to enthusiasm for classic ThinkPads and TrackPoints on keyboards, I had a classic ThinkPad keyboard to spare (FRU 42T3149, T61,T400,T500 compatible).
 
 So I popped off a keycap to see if it'd make any sense to attempt to print an MX stem for it. It turned out to be pretty nicely fittable. So it sat down in Onshape and did small click-and-glue-on MX stem thingy. Then superglued them on.
 

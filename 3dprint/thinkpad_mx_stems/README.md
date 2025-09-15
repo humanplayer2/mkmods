@@ -11,6 +11,8 @@ Due to enthusiasm for classic ThinkPads and TrackPoints on keyboards, I had a cl
 
 So I popped off a keycap to see if it'd make any sense to attempt to print an MX stem for it. It turned out to be pretty nicely fittable. So it sat down in Onshape and did small click-and-glue-on MX stem thingy. Then superglued them on.
 
+I feel it's somewhat sacrilegious, but I'd gotten the board in a pile-of-boards-of-unknown-condition purchase, and it was missing a mouse button. But I was short of a short project and a set of keycaps. So. Yeah.
+
 ## Outcome
 - Are the keycaps perfect? No. 
 - Are they all super straight and totally without wobble? No.

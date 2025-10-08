@@ -1,12 +1,32 @@
-# Silakka54 One-Piece Case
+# Silakka54 Cases
 For AliExpress Silakka54, i.e., where both MCU face up.
+>! Check version of your PCB under the MCU.
+>! Cases here support either v1.2 or v1.3
 
-## TL;DR
-- Requires only the insets and screws used in the Silakka54 sandwich case (4 Ø3 mm ... and 4 X mm M2 screws).
+# TL;DR
+
+## v1.2
+The sandwich case of the v1.2 has the bottom attached with hexagonal spacers.
+
+### One-Piece Case
+- Requires only the insets and screws used in the Silakka54 sandwich case (4x Ø3 ?mm hex spacers and 4x ?mm M2 screws).
 - STL and Cura profile files (for Ender S1 Plus) for the right side is included.
-    - For the left side, mirror the right part in Cura, and adjust `Z seam X` from `0.0` to `300`.
+- For the left side, mirror the right part in Cura, and adjust `Z seam X` from `0.0` to `300`.
+- Assembly: Push the hex spacers into the holes in the bottom, slide the MCU and TRRS in under their roofs (carefully, fragility exists), then screw PCB to hex. Add screws under, too, if you want.
 
-## Intro
+## v1.3
+The sandwich case of the v1.3 has the bottom attached with spacers soldered to the PCB.
+
+### One-Piece Case
+- Adjusted from the v1.2 one-piece case.
+- Assembly: Slide the MCU and TRRS in under their roofs (carefully, fragility exists), then add screws from the bottom.
+
+### Two-Piece Case
+- Assembly: Screw PCB to bottom from below, fit corner switches in plate, fit plate on PCB, add remaining switches.
+
+
+
+# Rant Format
     
 The [Silakka54](https://squalius-cephalus.github.io/silakka54/) by [Squalius-cephalus](https://github.com/Squalius-cephalus)
 is a sane defaults beginner-friendly split keyboard.
@@ -22,7 +42,9 @@ I'm not really good at printing getting the bottom nice, with angles of the cove
 Aesthetically, I find the walls a bit thick.
 
 So, I've tried my hand at 3d modeling a remix. It's one piece, the cover is less and with flat tops, and the walls are thinner. 
-It's almost from scratch, but for the PCB outline, that I coplied copied from the original `base.step`.
+The v1.2 is almost from scratch, but for the PCB outline, that I coplied copied from the original `base.step`. For the v1.2, I imported the plate STL into TinkerCAD, exported as SVG, opened in Inkscape and exported as DXF R12, which I could import in Onshape.
+
+Several on [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/) have recently made these neat "spacer cases" for their various boards. I think that's a neat idea, so I've included one here for the v1.3. Another Silakka54 case with such a spacer case is [this one](https://www.printables.com/model/1433122-silakka54-screwless-and-tenting-platform-carry-cas). It also includes a tenting platform!
 
 ## Design Files on Onshape
 I'm on Linux with zero CAD experience.

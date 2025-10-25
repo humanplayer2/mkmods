@@ -1,5 +1,7 @@
 # Case and Cover for Silakka54 "AliExpress v1.3 Edition"
+Table of Content: [About](#about) | [Files](#files) | [Printing](#printing) | [Support Version](#supported-version)
 
+## About
 >  A one-piece case and a controller cover for the [Silakka54](https://github.com/Squalius-cephalus/silakka54/) in its unofficial [AliExpress v1.3 edition](#supported-version).
 <img src="images/top.jpg" width="512" style="display: block; margin: 0 auto"/>
 
@@ -15,8 +17,6 @@
 
 > Trim the top off the inner column of header pins for the cover to slide over controller.
 <img src="images/pins.jpg" width="512" style="display: block; margin: 0 auto"/>
-
-## About
 
 > The case reuses the bottom plate from the Silakka54 sandwich case. The cover reuses both switch plate and bottom plate.
 <img src="images/bottom.jpg" width="512" style="display: block; margin: 0 auto"/>
@@ -38,6 +38,8 @@ The cases are done almost from scratch in Onshape, in [public workspaces](#files
 <img src="images/back.jpg" width="512" style="display: block; margin: 0 auto"/>
 
 ## Files
+3D view on [Printables](https://www.printables.com/model/1458709-silakka54-case-and-controller-cover).
+
 This directory holds STL files for case and cover. I've drawn them in Onshape, from where you can export more formats. The workspaces are public:
 - [Case](https://cad.onshape.com/documents/ac2b1008b1e54d39eee7ffea/w/31bafba10fbd2278af9c4c7d/e/d5d6406748a2ba0de6605a23?renderMode=0&uiState=68fcd35be2041a51a6f84151)
 - [Cover](https://cad.onshape.com/documents/e2461bf9dbd48bab8d95e3e2/w/3499d5dbfcf3e4be87407c19/e/ac8083f188c7b61fd47aa49c?renderMode=0&uiState=68fcd2aee2041a51a6f83f09)

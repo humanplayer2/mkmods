@@ -1,5 +1,5 @@
 # Wire Glue™: Will it Keyboard?
-Wire Glue™ promises to electrically conductively bond low voltage electrical connection. If wants to avoid soldering (for whateever reasons), does wire glue offer an alternative?
+Wire Glue™ promises to electrically conductively bond low voltage electrical connections. If one wants to avoid soldering (for whateever reasons), does wire glue offer an alternative?
 
 > <table cellpadding="0" cellspacing="0">
 >   <tr>
@@ -7,7 +7,7 @@ Wire Glue™ promises to electrically conductively bond low voltage electrical c
 >   </tr>
 > </table>
 
-[u/infamouslySIN](https://www.reddit.com/user/infamouslySIN/) of [r/keebgirlies](https://www.reddit.com/r/keebgirlies/) have been brainstorming low entry barrier options for handwiring keyboards. Not having to solder seems like something that would make building a board easier for a larger group of people. So I bought this stuff to do some tests, thinking to use it in a [guide for a first handwired](homemade/my_first_handwired/README.md).
+[u/infamouslySIN](https://www.reddit.com/user/infamouslySIN/) of [r/keebgirlies](https://www.reddit.com/r/keebgirlies/) and I have been brainstorming low entry barrier options for handwiring keyboards. Not having to solder seems like something that would make building a board easier for more people. So I bought this stuff to do some tests, thinking to use it in a [guide for a first handwired](homemade/my_first_handwired/README.md).
 
 ## Test 1. LED board
 In my first attempt with the wire glue, I wired up an RGB LED to a button cell battery and three switches so my daughter could control the LED color. I messed up the wiring and moved on.

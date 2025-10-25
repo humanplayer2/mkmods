@@ -1,7 +1,7 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
->  [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
+> [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
@@ -25,6 +25,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 ## 3D Prints
 - [1x1 MX plate test print](3dprint/1x1_mx_plate/README.md)
 - [Silakka54 thin one-piece screwless case](3dprint/silakka54_onepiece_case/README.md)
+- [ThinkPad keycap MX stems](3dprint/thinkpad_mx_stems/README.md)
 
 ## Building Techniques
 - [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)

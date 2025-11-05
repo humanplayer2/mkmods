@@ -41,8 +41,8 @@ The cases are done almost from scratch in Onshape, in [public workspaces](#files
 3D view on [Printables](https://www.printables.com/model/1458709-silakka54-case-and-controller-cover).
 
 This directory holds STL files for case and cover. I've drawn them in Onshape, from where you can export more formats. The workspaces are public:
-- [Case](https://cad.onshape.com/documents/ac2b1008b1e54d39eee7ffea/w/31bafba10fbd2278af9c4c7d/e/d5d6406748a2ba0de6605a23?renderMode=0&uiState=68fcd35be2041a51a6f84151)
-- [Cover](https://cad.onshape.com/documents/e2461bf9dbd48bab8d95e3e2/w/3499d5dbfcf3e4be87407c19/e/ac8083f188c7b61fd47aa49c?renderMode=0&uiState=68fcd2aee2041a51a6f83f09)
+- [Case](https://cad.onshape.com/documents/ac2b1008b1e54d39eee7ffea/w/31bafba10fbd2278af9c4c7d/e/d5d6406748a2ba0de6605a23)
+- [Cover](https://cad.onshape.com/documents/e2461bf9dbd48bab8d95e3e2/w/3499d5dbfcf3e4be87407c19/e/ac8083f188c7b61fd47aa49c)
 
 ## Printing
 Printed on an Ender-3 S1 Plus w. 0.4mm nozzle. This dir has the used Cura profile*, which amounts to:

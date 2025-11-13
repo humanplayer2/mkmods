@@ -24,7 +24,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 
 ## 3D Prints
 - [1x1 MX plate test print](3dprint/1x1_mx_plate/README.md)
-- [Silakka54 thin one-piece screwless case](3dprint/silakka54_onepiece_case/README.md)
+- [Silakka54 cases](3dprint/silakka54/README.md)
 - [ThinkPad keycap MX stems](3dprint/thinkpad_mx_stems/README.md)
 
 ## Building Techniques

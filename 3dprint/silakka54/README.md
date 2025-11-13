@@ -89,17 +89,17 @@ Anyways, here it is, sorry for the messy workspace:
 
 ### Assembly
 
-You need the spacers that came with the v1.2 case, and half the screws --- that's 4 of each :)
- <img src="images/v12/screws.jpg" width="300"/> 
+You need the spacers that came with the v1.2 case, and half the screws --- that's 4 of each :)  
+ <img src="images/v12/screws.jpg" width="512"/> 
  
 I placed the spacers in the case from the bottom:  
- <img src="images/v12/spacer_placing.jpg" width="300"/>
+ <img src="images/v12/spacer_placing.jpg" width="512"/>
 
 Pushed them in untill flush:  
  <img src="images/v12/spacer_push.jpg" width="300"/> <img src="images/v12/spacer_in.jpg" width="300"/> <img src="images/v12/spacer_in_1.jpg" width="300"/>
 
-Then placed somewhat carefully slid in the PCB and screwed it in place.
+Then placed somewhat carefully slid in the PCB and screwed it in place.  
 > [!CAUTION]
 > It's a tight fit, but it fits. But be careful to not force up either mcu nor trrs roof much, as you may break a bit of their supporting pillars (supergluable, though).
 
-<img src="images/v12/top.jpg" width="300"/>  
+<img src="images/v12/top.jpg" width="512"/>  

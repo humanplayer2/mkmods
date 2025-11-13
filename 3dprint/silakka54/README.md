@@ -1,5 +1,7 @@
 # Case and Cover for Silakka54 "AliExpress v1.3 Edition"
-Table of Content: [About](#about) | [Files](#files) | [Printing](#printing) | [Support Version](#supported-version)
+Table of Content: [About](#about) |[Files](#files) | [Printing](#printing) | [Support Version](#supported-version)
+
+> Bonus content: [Case for v1.2](#bonus-content-case-for-v12)
 
 ## About
 >  A one-piece case and a controller cover for the [Silakka54](https://github.com/Squalius-cephalus/silakka54/) in its unofficial [AliExpress v1.3 edition](#supported-version).
@@ -67,3 +69,37 @@ The AliExpress versions I have seen have both controllers facing up.
 The version number is printed on the PCB under the controller. Between v1.2 and v1.3, the PCB outline differs. V1.2 has removable spacers between PCB and bottom, while v1.3 soldered spacers.
 
 <img src="images/version.jpg" width="512" style="display: block; margin: 0 auto"/>
+
+# Bonus Content: Case for v1.2
+
+> [!NOTE]
+> Please read the text before you download the case, pay someone to print it, and get disappointed.
+
+<img src="images/v12/build.jpg" width="300"/> <img src="images/v12/back.jpg" width="300"/> <img src="images/v12/front.jpg" width="300"/>  
+
+I've had a v1.2 too, which I also did a case for. I initiated the design wanting it screwless, held in place by friction.
+ I'm not good enough with my printer to make that work, I learned :D
+
+So I did a version where the screw-on spacers pushed into the bottom, no screws. It worked fine, but I think maybe the spacers had to be just the right amount of loose on the PCB because the spacer holes were not 100% correctly positioned, so full tightness resulted in the PCB pulling the case making the bottom arch slightly. Not something that I'd notice on a deskmat, but on a hard surface, yes.
+
+Did I places some small o-rings between spacer screws and PCB for some slack? I think so.
+
+Anyways, here it is, sorry for the messy workspace:
+- [Case for v1.2](https://cad.onshape.com/documents/518b03e72a2b4cf4840c6618/w/309783c02a42935e761f2106/e/88c88d6adf255d44b8f63fc2?renderMode=0&uiState=6916417c2c7f2e083b970483)
+
+### Assembly
+
+You need the spacers that came with the v1.2 case, and half the screws --- that's 4 of each :)
+ <img src="images/v12/screws.jpg" width="300"/> 
+ 
+I placed the spacers in the case from the bottom:  
+ <img src="images/v12/spacer_placing.jpg" width="300"/>
+
+Pushed them in untill flush:  
+ <img src="images/v12/spacer_push.jpg" width="300"/> <img src="images/v12/spacer_in.jpg" width="300"/> <img src="images/v12/spacer_in_1.jpg" width="300"/>
+
+Then placed somewhat carefully slid in the PCB and screwed it in place.
+> [!CAUTION]
+> It's a tight fit, but it fits. But be careful to not force up either mcu nor trrs roof much, as you may break a bit of their supporting pillars (supergluable, though).
+
+<img src="images/v12/top.jpg" width="300"/>  

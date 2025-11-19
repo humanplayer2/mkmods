@@ -48,4 +48,5 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 
 ## Reviews
 - [AKKO 3068B (DK keycaps, sponsored)](premade/AKKO_3068B/README.md)
+- [Dareu Cool 60 (sponsored)](premade/Darea_Cool60/README.md)
 - [MUCAI MK61 (10$ complete hotswap 60% board)](premade/MUCAI_MK61/README.md)

@@ -22,10 +22,11 @@ Notes and photos of some of the boards and techniques I've fiddled with.
     When you've definitively destroyed the main chip on the PCB.  
     <img src="homemade/scraps34/images/done_top1_crop.jpg" width="300"/> <img src="homemade/scraps34/images/plate.jpg" width="300"/> 
 
-## 3D Prints
+## 3D Printing
 - [1x1 MX plate test print](3dprint/1x1_mx_plate/README.md)
 - [Silakka54 cases](3dprint/silakka54/README.md)
 - [ThinkPad keycap MX stems](3dprint/thinkpad_mx_stems/README.md)
+- [Comparision of JLC3DP SLA materials for keycaps](3dprint/jlc3dp_sla_keycaps/README.md)
 
 ## Building Techniques
 - [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)

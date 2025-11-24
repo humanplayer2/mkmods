@@ -37,6 +37,9 @@ In bullets:
 
 I got a full set of _PA11-HP_ nylon keycaps and a full set of _Imagine Black_. For prolonged testing, I wish I'd gotten one _PA11-HP_, one _JLC Black Resin_. I am curious to see what happens to a _Imagine Black_ keycap if I massage it some on a switch stem, break it in a bit.
 
+## Usage
+- Day 1: Today I switched to the _PA11-HP_ nylon keycaps on my office board. I'm enjoing the structure, and have had no issues with looseness.
+
 ## Photos
 I've take photos during the day in the window in Danish winter light, and in more the more natural keyboard habitat of the evening in front of my screen with my Philips Hue bulbs set to just bright white. For the daytime photos, I tried to take comparing shots very quickly after each other, so the cloud wouldn't affect the light much. I also include one with RGB backlight board, to give an impression of the translucency.
 

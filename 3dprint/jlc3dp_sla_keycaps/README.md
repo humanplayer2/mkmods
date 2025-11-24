@@ -1,5 +1,6 @@
 # Comparision of JLC3DP SLA materials for keycaps
-> Nylon PA11-HP and resins Imagine Black, JLC Black Resin, and Black Resin
+
+Nylon PA11-HP and resins Imagine Black, JLC Black Resin, and Black Resin
 
 TL;DR: Photos in the bottom
 
@@ -72,20 +73,31 @@ Prior to photographing them, I wiped all tops with a wet baby wipe, and let them
 <img src="images/PXL_20251122_113704643.jpg" width="512"/> 
 
 ### Close-ups
-<img src="images/PXL_20251122_113741046.jpg" width="512"/> 
-<img src="images/PXL_20251122_113757929.jpg" width="512"/> 
-<img src="images/PXL_20251122_113808025.jpg" width="512"/> 
-<img src="images/PXL_20251122_113819716.jpg" width="512"/> 
+#### Nylon  
 
-<img src="images/PXL_20251122_113912491.jpg" width="512"/> 
-<img src="images/PXL_20251122_113916822.jpg" width="512"/> 
-<img src="images/PXL_20251122_113923333.jpg" width="512"/> 
-<img src="images/PXL_20251122_113927286.jpg" width="512"/> 
+<img src="images/PXL_20251122_113741046.jpg" width="512"/> <img src="images/PXL_20251122_113912491.jpg" width="512"/> 
 
-# On board
+#### Imagine Black  
+
+<img src="images/PXL_20251122_113757929.jpg" width="512"/> <img src="images/PXL_20251122_113916822.jpg" width="512"/> 
+
+#### JLC Black
+<img src="images/PXL_20251122_113808025.jpg" width="512"/> <img src="images/PXL_20251122_113923333.jpg" width="512"/> 
+
+#### Black 
+<img src="images/PXL_20251122_113819716.jpg" width="512"/> <img src="images/PXL_20251122_113927286.jpg" width="512"/> 
+
+### On board
+
+#### Imagine Black keycaps were *tight*.
+They required force to push down. You can see that "regular" force didn't get them all the way down. I pulled a stem out of the HE switches when pulling the keycap off again... After, I took the swithes out of the board and used my keycap puller in "reverse", using it to hold on to the stem while holding the keycap with my fingers.
+
 <img src="images/PXL_20251122_114420882.jpg" width="512"/> 
 <img src="images/PXL_20251122_114728794.jpg" width="512"/> 
+
+#### Side by side on the board. Also RGB!
+
+<img src="images/PXL_20251122_154957142.jpg" width="512"/> 
 <img src="images/PXL_20251122_154820090.jpg" width="512"/> 
 <img src="images/PXL_20251122_154923223.jpg" width="512"/> 
-<img src="images/PXL_20251122_154957142.jpg" width="512"/> 
 <img src="images/PXL_20251122_155237215.jpg" width="512"/> 

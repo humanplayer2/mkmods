@@ -4,6 +4,8 @@ Nylon PA11-HP and resins Imagine Black, JLC Black Resin, and Black Resin
 
 TL;DR: Photos in the bottom
 
+Related posts: [me on r/ErgoMechKeyboards post](https://www.reddit.com/r/ErgoMechKeyboards/comments/1p69z2m/comparision_of_pa11hp_and_three_black_resins_for/), [JLC3DP on Twitter](https://x.com/JLC3DP/status/1996217861849612389)
+
 > [!NOTE]
 > On request, JLC3DP kindly sponsored the keycaps described here.
 

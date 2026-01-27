@@ -3,6 +3,7 @@
 > [r/mk post](https://www.reddit.com/r/MechanicalKeyboards/comments/1qntnph/oven_retrobright_of_dytcom_k261_keycaps/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 
 <img src="images/frontmatter.jpg" width="512" style="display: block; margin: 0 auto"/>
+> This says 8 hours, but oven setting photo says 10 hours. I think 10 hours is correct.
 
 I posted a pretty tired-looking DYTCOM K-261 the other day: https://www.reddit.com/r/MechanicalKeyboards/s/lw4PQbpLpy
 
@@ -23,7 +24,7 @@ Earlier, I've retro-brighted with hydrogen peroxide plus Vanish as catalyst, but
 
 I've only used my oven. Denmark is short of UV light in the winter, I think. And I don't have a garden.
 
-I was a bit lazy and didn't try to save on the cream: I just drowned all the keycaps in it, pre-heated the oven, and gave them 8 hours at 55°C. No tests, no regrets.
+I was a bit lazy and didn't try to save on the cream: I just drowned all the keycaps in it, pre-heated the oven, and gave them ~8 hours~ 10 hours at 55°C. No tests, no regrets.
 
 <img src="images/cream.jpg" width="512" style="display: block; margin: 0 auto"/>  
 

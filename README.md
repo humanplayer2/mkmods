@@ -42,7 +42,8 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [Heat shrink on stablizers to reduce rattle (didn't work)](mods/heat_shrink_on_stablizers/README.md)
 
 ## Misc
-- [Gabrielle 7007L typewriter: MX useable keycaps](premade/Gabrielle_7007L/README.md)
+- [Gabrielle 7007L typewriter: MX useable keycaps](misc/Gabriel_7007L/README.md)
+- [Retro-bright keycaps in the oven](misc/retrobright/README.md)
 
 ## Premade Boards
 - [Tokyo60 w. Terminal keycaps: Notes on QMK/VIA](premade/Tokyo60/README.md)

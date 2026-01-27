@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [[ "$#" -eq 0 ]]; then
+  echo "Usage: ergogendot_on_any_filename <file.yaml>   (use -h for help)"
+  exit 1
+fi
+
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+  cat <<'EOF'
+Usage: ergogendot_on_any_filename <file.yaml>
+
+In a directory where you'd normally use "ergogen ." to pull in
+external footprints in the compilation of an ergogen config.yaml,
+you can equivalenty use this script while retaining a different
+configuration filename.
+
+Steps performed:
+  1. Creates symlink: ./config.yaml -> <file.yaml>
+  2. Runs: ergogen .
+  3. Removes the symlink afterwards
+
+Examples:
+  ergogendot_on_any_filename mykeyboard.yaml
+  ergogendot_on_any_filename -h        # show this help message
+EOF
+  exit 0
+fi
+
+target="$1"
+
+if [[ ! -f "$target" ]]; then
+  echo "Error: file '$target' does not exist"
+  exit 1
+fi
+
+# Check if config.yaml exists,  prompt user for before overriding
+if [[ -f "config.yaml" ]]; then
+  echo "Attention: 'config.yaml' exists. Continuing will overwrite it."
+  read -p "Do you want to continue? (y/N): " choice
+  case "$choice" in
+    y|Y) ;;
+    *) echo "OK, aborted :)"; exit 0 ;;
+  esac
+fi
+
+# Cleanup function to remove symlink
+cleanup() {
+  rm -f config.yaml
+}
+trap cleanup EXIT INT TERM
+
+# Remove any existing config.yaml and create symlink
+rm -f config.yaml
+ln -s "$target" config.yaml
+
+# Run ergogen
+ergogen .

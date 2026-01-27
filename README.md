@@ -1,7 +1,7 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
-> [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Mods](#mods) | [Misc](#misc)  
+> [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Ergogen](#ergogen) | [Mods](#mods) | [Misc](#misc)  
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
@@ -32,6 +32,9 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
 - [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
 - [A plate made of Hama beads](techniques/hama_plate/README.md)
+
+## Ergogen
+- [Script for running `ergogen .` on any `filename.yaml`](ergogen/ergogendot_on_any_filename)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)

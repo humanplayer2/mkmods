@@ -5,7 +5,7 @@
 - Designed with [Ergogen](https://github.com/ergogen/ergogen)
 
 
-*Revision 1 (wip). Pinkie fans moved inwards, no splay.*
+*Version 1.1. Pinkie fans moved inwards, no splay.*
 Left little fingers controls the left-most key + `left` + `>_`, the right the right-most key, `0`, and `system`.
 ![](images/rev1_keycaps.jpg)
 

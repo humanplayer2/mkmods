@@ -35,7 +35,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 
 ## Ergogen
 - [Script for running `ergogen .` on any `filename.yaml`](ergogen/ergogendot_on_any_filename)
-- [Ordering PCBs from PCBWay: How-to and Review](ergogen/pcbway_review.md)
+- [Ordering PCBs from PCBWay: How-to and Review (sponsored)](ergogen/pcbway_review.md)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)

@@ -5,7 +5,9 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
-
+- [Underset: A spartan 52-key column-staggered split keyboard](homemade/underset/README.md)
+    The aggressive pinky stagger of LaserRaven with numbers row and RP2040-Zero and TRRS underset the switch plate for simple cases that still isolates the electronics  
+    <img src="homemade/underset/images/top.jpg" width="300"/> <img src="homemade/underset/images/homerow_and_pinky.jpg" width="300"/>
 - [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
     My daily board: revision 1 and version 1  
     <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>

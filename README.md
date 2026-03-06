@@ -28,16 +28,16 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [1x1 MX plate test print](3dprint/1x1_mx_plate/README.md)
 - [Silakka54 cases](3dprint/silakka54/README.md)
 - [ThinkPad keycap MX stems](3dprint/thinkpad_mx_stems/README.md)
-- [Comparision of JLC3DP SLA materials for keycaps](3dprint/jlc3dp_sla_keycaps/README.md)
+- [Comparision of JLC3DP SLA materials for keycaps (sponsored)](3dprint/jlc3dp_sla_keycaps/README.md)
 
 ## Building Techniques
-- [Solder-free handwiring using WireGlue (tests)](techniques/wireglue/README.md)
+- [Solder-free handwiring using WireGlue: Tests](techniques/wireglue/README.md)
 - [Insulating handwired builds easily with acrylic paint](techniques/acrylic_paint_as_insulator/README.md)
 - [A plate made of Hama beads](techniques/hama_plate/README.md)
 
 ## Ergogen
 - [Script for running `ergogen .` on any `filename.yaml`](ergogen/ergogendot_on_any_filename)
-- [Ordering PCBs from PCBWay: How-to and Review (sponsored)](ergogen/pcbway_review.md)
+- [Ordering PCBs from PCBWay: How-to and review (sponsored)](ergogen/pcbway_review.md)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)
@@ -55,6 +55,6 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [WIP: TEX Shura w. modified Cherry profile keycaps](premade/TEX_Shura/README.md)
 
 ## Reviews
-- [AKKO 3068B (DK keycaps, sponsored)](premade/AKKO_3068B/README.md)
+- [AKKO 3068B with DK keycaps (sponsored)](premade/AKKO_3068B/README.md)
 - [Dareu Cool 60 (sponsored)](premade/Darea_Cool60/README.md)
-- [MUCAI MK61 (10$ complete hotswap 60% board)](premade/MUCAI_MK61/README.md)
+- [MUCAI MK61: 10$ complete hotswap 60% board](premade/MUCAI_MK61/README.md)

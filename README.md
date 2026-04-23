@@ -37,7 +37,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 
 ## Ergogen
 - [Script for running `ergogen .` on any `filename.yaml`](ergogen/ergogendot_on_any_filename)
-- [Ordering PCBs from PCBWay: How-to and review (sponsored)](ergogen/pcbway_review.md)
+- [My custom Ergogen footprints](https://codeberg.org/humanplayer2/ergogen_footprints)
 
 ## Mods
 - [Spacebar with adhesive putty for deeper sound](mods/spacebar_with_adhesive_putty/README.md)
@@ -55,6 +55,7 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [WIP: TEX Shura w. modified Cherry profile keycaps](premade/TEX_Shura/README.md)
 
 ## Reviews
-- [AKKO 3068B with DK keycaps (sponsored)](premade/AKKO_3068B/README.md)
-- [Dareu Cool 60 (sponsored)](premade/Darea_Cool60/README.md)
-- [MUCAI MK61: 10$ complete hotswap 60% board](premade/MUCAI_MK61/README.md)
+- [Ordering PCBs from PCBWay: How-to and review (sponsored)](reviews/PCBWay/pcbway_review.md)
+- [AKKO 3068B with DK keycaps (sponsored)](reviews/AKKO_3068B/README.md)
+- [Dareu Cool 60 (sponsored)](reviews/Darea_Cool60/README.md)
+- [MUCAI MK61: 10$ complete hotswap 60% board](reviews/MUCAI_MK61/README.md)

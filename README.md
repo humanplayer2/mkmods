@@ -1,7 +1,7 @@
 # Mechanical Keyboard Mods
  
 Notes and photos of some of the boards and techniques I've fiddled with.  
-> [3D Prints](#3d-prints) | [Building Techniques](#building-techniques) | [Ergogen](#ergogen) | [Mods](#mods) | [Misc](#misc)  
+> [3D Printing](#3d-printing) | [Building Techniques](#building-techniques) | [Ergogen](#ergogen) | [Mods](#mods) | [Misc](#misc)  
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards

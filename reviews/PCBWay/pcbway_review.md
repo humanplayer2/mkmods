@@ -59,12 +59,12 @@ Okay, points of criticism. I have no qualms with the PCBs or the assembly. The m
 - _**Payment**_.  
     Update: PCBWay now supports both credit card and various other payment services. I haven't tried that yet, but it sounds like my now main criticism has been taken care of :smile:
 
-    ~~The [Help Center article on Payment Process](https://web.archive.org/web/20260112112439/https://www.pcbway.com/helpcenter/paymentprocess/Which_payment_methods_can_I_use_on_PCBWay_.html) states that you can pay by credit card.~~
+    <strike>The [Help Center article on Payment Process](https://web.archive.org/web/20260112112439/https://www.pcbway.com/helpcenter/paymentprocess/Which_payment_methods_can_I_use_on_PCBWay_.html) states that you can pay by credit card.
     
     Currently, the only way of paying by credit card is via Payoneer, through personal contact with a PCBWay sales representative. It took me **sixty hours** to finalize my payment. Granted, some of that was because I had to re-request a payment request from PCBWay to Payoneer as the first borked due to wrong card details. Personal contact across unaligned timezones does not speed things up.
     
     When PayPal was an option in October of 2025, I was annoyed some by the fee, and a lot by not being able to pay VAT on the site. Now you can pay VAT. Living in the EU, in Denmark, that's important to me, as I else either have to pay for an expensive shipping company that'll take case of it for me, or risk a large extra fee when using more standard shipping.
     
-    I've talked to my contact sponsorship contact about Payoneer, and they tell me that on online payment is planned for the future. They did add the option to pay VAT, so it seems they are focused on improving the ordering procedure :smile:
+    I've talked to my contact sponsorship contact about Payoneer, and they tell me that on online payment is planned for the future. They did add the option to pay VAT, so it seems they are focused on improving the ordering procedure :smile:</strike>
     
 Yeah, so that's about it. Apart from payment cumbersomeness, my ordering processes have been really good, with helpful interactions with customer service, fast reviewing and spot-on PCBs. So: Thanks, PCBWay!

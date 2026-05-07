@@ -15,7 +15,7 @@
 
 More photos in the bottom.
 
-Two top right keys can be replaced with a 2u Backspace. The platecannot accommodate a stabliziser there, and none was included.
+Two top right keys can be replaced with a 2u Backspace. The plate cannot accommodate a stabliziser there, and none was included.
 
 ## Out of the box
 Stablizers are rattle-free. I hear no pings from the switches, neither when in place or when held to ear. The keycaps are dye-sub, with very clean legends everywhere.
@@ -103,9 +103,14 @@ If it does run QMK, Zuoya should release the source code [to not violate the lic
 
 ![0](images/12.jpg)
 
-![0](images/13.jpg)
-
 ![0](images/14.jpg)
+
+> [u/GI234](https://www.reddit.com/user/GI234/) shared photos of a GMK26 with better identification on both chips, but could unfortunately not find any documentation on them regardless.
+> ![0](images/PCB_extra_1.jpg)
+> ![0](images/PCB_extra_2.jpg)
+> ![0](images/PCB_extra_3.jpg)
+
+![0](images/13.jpg)
 
 ![0](images/15.jpg)
 

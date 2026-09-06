@@ -5,16 +5,16 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 > [Homemade Boards](#homemade-boards) | [Premade Boards](#premade-boards) | [Reviews](#reviews)  
 
 ## Homemade Boards
-- [Underset: A spartan 52-key column-staggered split keyboard](homemade/underset/README.md)
+- [Underset: A spartan 52-key column-staggered split keyboard](homemade/underset/README.md)  
     The aggressive pinky stagger of LaserRaven with numbers row and RP2040-Zero and TRRS underset the switch plate for simple cases that still isolates the electronics  
-    <img src="homemade/underset/images/top.jpg" width="300"/> <img src="homemade/underset/images/homerow_and_pinky.jpg" width="300"/>
-        - Now also in a v2 with USB-C instead of TRRS.
+    <img src="homemade/underset/images/top.jpg" width="300"/> <img src="homemade/underset/images/homerow_and_pinky.jpg" width="300"/>  
+        - [Now also in a v2 with USB-C instead of TRRS](https://codeberg.org/humanplayer2/underset)  
 - [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
-    My daily board (left), a sligthy hacked version of the v1 PCB (right)
-    <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>
+    My daily board (left), a sligthy hacked version of the v1 PCB (right)  
+    <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>  
 - [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)  
     Precursor to LaserRaven, laser-cut from acrylic and MDF.  
-    <img src="homemade/laserprosthetic/photos/top_crop.jpg" width="300"/> <img src="homemade/laserprosthetic/photos/layers_crop.jpg" width="300"/>
+    <img src="homemade/laserprosthetic/photos/top_crop.jpg" width="300"/> <img src="homemade/laserprosthetic/photos/layers_crop.jpg" width="300"/>  
 - [Frejas Hitbox: A gamepad made of Hama beads and cardboard](homemade/frejas/README.md)  
     Made for and with my toddler.  
     <img src="homemade/frejas/photos/bead_case_top_crop.jpg" width="300"/> <img src="homemade/frejas/photos/bead_case_bottom_crop.jpg" width="300"/>

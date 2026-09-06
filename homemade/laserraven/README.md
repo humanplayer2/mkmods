@@ -2,8 +2,8 @@
 
 > **A 32+6 trackpoint columnar aggressive stagger unibody split designed with nordic languages in mind.**
 
+- The offspring of [LaserProsthetic](/homemade/laserprosthetic/README.md)
 - Designed with [Ergogen](https://github.com/ergogen/ergogen)
-
 
 *Version 1.1. Pinkie fans moved inwards, no splay.*
 Left little fingers controls the left-most key + `left` + `>_`, the right the right-most key, `0`, and `system`.
@@ -13,9 +13,10 @@ Left little fingers controls the left-most key + `left` + `>_`, the right the ri
 ![](images/v1_keycaps.jpg)
 
 *Next steps:*
-- V2: Ergogen+KiCad a PCB, design case.
-- Document change from V1 to Rev. 1.
-- V1: Add note that outlines needed to be closed manually in KiCad.
+- EDIT: None. [I moved to split design instead]([https://codeberg.org/humanplayer2/deerfox]).
+- ~~V2: Ergogen+KiCad a PCB, design case.~~
+- ~~Document hack from V1 to Rev. 1.~~
+- ~~V1: Add note that outlines needed to be closed manually in KiCad.~~
 
 ## Keymap
 - [My QMK fork](https://github.com/humanplayer2/qmk_firmware) contains firmware, in the `humanplayer2` branch, under `keyboards/humanplayer2/laserraven/`.

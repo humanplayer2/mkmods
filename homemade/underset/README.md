@@ -4,7 +4,9 @@ Underset is a spartan 52-key column-staggered split keyboard with
 - aggressive pinky stagger and keys partially underset the ring column for a three-key curved pinky cluster
 - both RP2040-Zero and TRRS underset the switch plate for simple cases that still isolates the electronics
 
-See the [repository on Codeberg](https://codeberg.org/humanplayer2/underset/)
+> [!NOTE]
+> This was written for the TRRS v1. I've now made a v2 with USB-C.
+> See the [repository on Codeberg](https://codeberg.org/humanplayer2/underset/)
 
 <div align="center">
     <img src="images/top.jpg" width="600"/>

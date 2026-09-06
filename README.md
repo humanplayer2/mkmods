@@ -8,8 +8,9 @@ Notes and photos of some of the boards and techniques I've fiddled with.
 - [Underset: A spartan 52-key column-staggered split keyboard](homemade/underset/README.md)
     The aggressive pinky stagger of LaserRaven with numbers row and RP2040-Zero and TRRS underset the switch plate for simple cases that still isolates the electronics  
     <img src="homemade/underset/images/top.jpg" width="300"/> <img src="homemade/underset/images/homerow_and_pinky.jpg" width="300"/>
+        - Now also in a v2 with USB-C instead of TRRS.
 - [LaserRaven: A 32+6 designed with nordic languages in mind.](homemade/laserraven/README.md)  
-    My daily board: revision 1 and version 1  
+    My daily board (left), a sligthy hacked version of the v1 PCB (right)
     <img src="homemade/laserraven/images/rev1_keycaps.jpg" width="300"/> <img src="homemade/laserraven/images/v1_keycaps.jpg" width="300"/>
 - [LaserProsthetic: Trackpoint ergo laser-cut from acrylic and MDF](homemade/laserprosthetic/README.md)  
     Precursor to LaserRaven, laser-cut from acrylic and MDF.  

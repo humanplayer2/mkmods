@@ -5,11 +5,11 @@
 - The offspring of [LaserProsthetic](/homemade/laserprosthetic/README.md)
 - Designed with [Ergogen](https://github.com/ergogen/ergogen)
 
-*Version 1.1. Pinkie fans moved inwards, no splay.*
-Left little fingers controls the left-most key + `left` + `>_`, the right the right-most key, `0`, and `system`.
+*Version 1.1. Pinkie fans moved inwards, no splay (built 26/04/2025)*  
+Left little fingers controls the left-most key + `left` + `>_`, the right the right-most key, `0`, and `system`.  
 ![](images/rev1_keycaps.jpg)
 
-*Version 1: Far, splayed pinky fans*
+*Version 1: Far, splayed pinky fans (built 14/02/2025)*  
 ![](images/v1_keycaps.jpg)
 
 *Next steps:*
